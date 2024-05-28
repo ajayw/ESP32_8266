@@ -1,0 +1,1530 @@
+
+
+
+
+
+
+
+Started logging.
+15:25:06.422145 Language server launched with arguments:
+15:25:06.422145   arg[0] = d:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-language-server.exe
+15:25:06.422145   arg[1] = -clangd
+15:25:06.422145   arg[2] = d:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\clangd.exe
+15:25:06.422145   arg[3] = -cli-daemon-addr
+15:25:06.422145   arg[4] = localhost:63841
+15:25:06.422145   arg[5] = -cli-daemon-instance
+15:25:06.422145   arg[6] = 1
+15:25:06.422145   arg[7] = -fqbn
+15:25:06.422145   arg[8] = arduino:avr:uno
+15:25:06.422661   arg[9] = -skip-libraries-discovery-on-rebuild
+15:25:06.422661   arg[10] = -board-name
+15:25:06.422661   arg[11] = "Arduino Uno"
+15:25:06.422661   arg[12] = -no-real-time-diagnostics
+15:25:06.422661   arg[13] = -log
+15:25:06.422661   arg[14] = -logpath
+15:25:06.422661   arg[15] = g:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle
+15:25:06.423167 logging to g:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\inols.log
+15:25:06.429124 [97mLS: : Initial board configuration: arduino:avr:uno[0m
+15:25:06.429154 [97mLS: : Language server build path: C:\Users\Administrator\AppData\Local\Temp\arduino-language-server812076482[0m
+15:25:06.429154 [97mLS: : Language server build sketch root: C:\Users\Administrator\AppData\Local\Temp\arduino-language-server812076482\sketch[0m
+15:25:06.429154 [97mLS: : Language server FULL build path: C:\Users\Administrator\AppData\Local\Temp\arduino-language-server1961812128[0m
+15:25:06.429154 IN Elapsed: 0s
+15:25:06.429670 [92mIDE --> LS REQU initialize 0[0m
+15:25:06.430204 [92m                initialize 0: [93mwrite-locked[0m[0m
+15:25:06.431278 [92m                initialize 0: [93mwrite-unlocked[0m[0m
+15:25:06.431278 [96mINIT --- : initializing workbench: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle[0m
+15:25:06.431278 [96mINIT --- : [93mread-locked[0m[0m
+15:25:06.431278 [96mINIT --- : [93mread-unlocked[0m[0m
+15:25:06.431278 [92m                initialize 0: initialization parameters: {"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{"includeText":true}},"completionProvider":{"triggerCharacters":[".","\u003c","\u003e",":","\"","/"],"allCommitCharacters":[" ","\t","(",")","[","]","{","}","\u003c","\u003e",":",";",",","+","-","/","*","%","^","\u0026","#","?",".","=","\"","'","|"],"completionItem":{}},"hoverProvider":{},"signatureHelpProvider":{"triggerCharacters":["(",","]},"definitionProvider":{},"documentHighlightProvider":{},"documentSymbolProvider":{},"codeActionProvider":{"codeActionKinds":["quickfix","refactor","info"]},"documentFormattingProvider":{},"documentRangeFormattingProvider":{},"documentOnTypeFormattingProvider":{"firstTriggerCharacter":"\n"},"renameProvider":{},"executeCommandProvider":{"commands":["clangd.applyFix","clangd.applyTweak"]},"workspaceSymbolProvider":{}},"serverInfo":{"name":"arduino-language-server","version":"0.7.1"}}[0m
+15:25:06.431278 [32mIDE <-- LS RESP initialize 0[0m
+15:25:06.431791 OUT Elapsed: 0s
+15:25:06.433383 listen tcp 127.0.0.1:6060: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+15:25:06.436462 IN Elapsed: 4.6715ms
+15:25:06.437032 [92mIDE --> LS NOTIF initialized[0m
+15:25:06.437032 [92m                 initialized: Notification is not propagated to clangd[0m
+15:25:06.437032 IN Elapsed: 0s
+15:25:06.437032 [92mIDE --> LS NOTIF textDocument/didOpen[0m
+15:25:06.437032 [92m                 textDocument/didOpen: [93mwrite-locked[0m[0m
+15:25:06.437032 [92m                 textDocument/didOpen: (throttled: waiting for clangd)[0m
+15:25:06.437032 [92m                 textDocument/didOpen: [93munlocked (waiting clangd)[0m[0m
+15:25:06.744610 [96mINIT --- : Running build with: {
+  "instance": {
+    "id": 1
+  },
+  "fqbn": "arduino:avr:uno",
+  "sketch_path": "G:\\11.ZhiYi\\5.Tutorial\\1.tutorial\\ZYC0076拍照麦克轮WiFi小车\\ZYC0076\\4_Arduino_Code\\2_servo_Angle",
+  "build_path": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\arduino-language-server1961812128",
+  "verbose": true,
+  "create_compilation_database_only": true
+}[0m
+15:25:08.690440 [96mINIT --- : Compile successful![0m
+15:25:08.694083 [96mINIT --- : Updated 'libraries.cache'. Copied: C:\Users\Administrator\AppData\Local\Temp\arduino-language-server1961812128\libraries.cache to C:\Users\Administrator\AppData\Local\Temp\arduino-language-server812076482\libraries.cache[0m
+15:25:08.694083 [96mINIT --- : [93mread-locked[0m[0m
+15:25:08.694083 [96mINIT --- : [93mread-unlocked[0m[0m
+15:25:09.002571 [96mINIT --- : Running build with: {
+  "instance": {
+    "id": 1
+  },
+  "fqbn": "arduino:avr:uno",
+  "sketch_path": "G:\\11.ZhiYi\\5.Tutorial\\1.tutorial\\ZYC0076拍照麦克轮WiFi小车\\ZYC0076\\4_Arduino_Code\\2_servo_Angle",
+  "build_path": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\arduino-language-server812076482",
+  "verbose": true,
+  "create_compilation_database_only": true,
+  "skip_libraries_discovery": true
+}[0m
+15:25:09.313093 [96mINIT --- : Compile successful![0m
+15:25:09.654022 [96mINIT --- : Arduino Data Dir -> c:\Users\Administrator\AppData\Local\Arduino15[0m
+15:25:09.656661 [96mINIT --- :     Starting clangd: d:\Program Files\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\clangd.exe -log=verbose --compile-commands-dir=C:\Users\Administrator\AppData\Local\Temp\arduino-language-server812076482 -query-driver=C:\Users\Administrator\AppData\Local\Arduino15\packages\**[0m
+15:25:09.667635 logging to g:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\inols-clangd.log
+15:25:09.668138 logging to g:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\inols-clangd-err.log
+15:25:09.668138 [91mIDE     LS --> Clangd REQU initialize 1[0m
+15:25:09.669523 OUT Elapsed: 1.3842ms
+15:25:09.753412 IN Elapsed: 85.2738ms
+15:25:09.753412 [31mIDE     LS <-- Clangd RESP initialize 1[0m
+15:25:09.753412 [96mINIT --- : clangd successfully started: {"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{}},"completionProvider":{"triggerCharacters":[".","\u003c","\u003e",":","\"","/","*"],"allCommitCharacters":[" ","\t","(",")","[","]","{","}","\u003c","\u003e",":",";",",","+","-","/","*","%","^","\u0026","#","?",".","=","\"","'","|"]},"hoverProvider":{},"signatureHelpProvider":{"triggerCharacters":["(",")","{","}","\u003c","\u003e",","]},"declarationProvider":{},"definitionProvider":{},"typeDefinitionProvider":{},"implementationProvider":{},"referencesProvider":{},"documentHighlightProvider":{},"documentSymbolProvider":{},"codeActionProvider":{"codeActionKinds":["quickfix","refactor","info"]},"documentLinkProvider":{},"documentFormattingProvider":{},"documentRangeFormattingProvider":{},"documentOnTypeFormattingProvider":{"firstTriggerCharacter":"\n"},"renameProvider":{"prepareProvider":true},"executeCommandProvider":{"commands":["clangd.applyFix","clangd.applyTweak"]},"selectionRangeProvider":{},"callHierarchyProvider":{},"semanticTokensProvider":{"legend":{"tokenTypes":["variable","variable","parameter","function","method","function","property","variable","class","interface","enum","enumMember","type","type","unknown","namespace","typeParameter","concept","type","macro","comment"],"tokenModifiers":["declaration","deprecated","deduced","readonly","static","abstract","virtual","dependentName","defaultLibrary","usedAsMutableReference","functionScope","classScope","fileScope","globalScope"]},"range":false,"full":{"delta":true}},"workspaceSymbolProvider":{}},"serverInfo":{"name":"clangd","version":"clangd version 14.0.0 windows x86_64-pc-windows-msvc"}}[0m
+15:25:09.753412 [91mIDE     LS --> Clangd NOTIF initialized[0m
+15:25:09.753929 OUT Elapsed: 0s
+15:25:09.753929 [96mINIT --- : Done initializing workbench[0m
+15:25:09.753929 [92m                 textDocument/didOpen: [93mlocked (waiting clangd)[0m[0m
+15:25:09.754950 [92m                 textDocument/didOpen: URI: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp[0m
+15:25:09.758636 [92m                 textDocument/didOpen: Increasing .ino tracked files count to 1[0m
+15:25:09.760196 [91mIDE     LS --> Clangd NOTIF textDocument/didOpen[0m
+15:25:09.760196 OUT Elapsed: 0s
+15:25:09.760196 [92m                 textDocument/didOpen: [93mwrite-unlocked[0m[0m
+15:25:09.760196 IN Elapsed: 0s
+15:25:09.760196 [92mIDE --> LS REQU textDocument/documentSymbol 1[0m
+15:25:09.760196 [92m                textDocument/documentSymbol 1: [93mread-locked[0m[0m
+15:25:09.761221 [92m                textDocument/documentSymbol 1: URI: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp[0m
+15:25:09.761221 [91mIDE     LS --> Clangd REQU textDocument/documentSymbol 2[0m
+15:25:09.761221 OUT Elapsed: 0s
+15:25:09.764386 IN Elapsed: 10.9733ms
+15:25:09.764386 [91mIDE     LS <-- Clangd NOTIF textDocument/publishDiagnostics[0m
+15:25:09.764919 [91m                            textDocument/publishDiagnostics: Ignored by configuration[0m
+15:25:09.769016 IN Elapsed: 4.0976ms
+15:25:09.769016 [91mIDE     LS <-- Clangd REQU window/workDoneProgress/create 0[0m
+15:25:09.769016 [31mIDE     LS --> Clangd RESP window/workDoneProgress/create 0[0m
+15:25:09.769016 [92mIDE <-- LS REQU window/workDoneProgress/create 1[0m
+15:25:09.769519 OUT Elapsed: 503µs
+15:25:09.769016 OUT Elapsed: 0s
+15:25:09.769519 IN Elapsed: 0s
+15:25:09.769519 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:09.769519 [91m                            $/progress: backgroundIndexProgress BEGIN indexing, 0.0%[0m
+15:25:09.769519 IN Elapsed: 0s
+15:25:09.769519 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:09.769519 [91m                            $/progress: backgroundIndexProgress REPORT, 0/1, 0.0%[0m
+15:25:09.778224 IN Elapsed: 8.2376ms
+15:25:09.778224 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:09.778224 [91m                            $/progress: backgroundIndexProgress REPORT, 0/27, 0.0%[0m
+15:25:09.778224 IN Elapsed: 0s
+15:25:09.778224 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:09.778224 [91m                            $/progress: backgroundIndexProgress REPORT, 0/27, 0.0%[0m
+15:25:09.778224 IN Elapsed: 0s
+15:25:09.778224 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:09.778224 [91m                            $/progress: backgroundIndexProgress REPORT, 0/27, 0.0%[0m
+15:25:09.778727 IN Elapsed: 0s
+15:25:09.778807 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:09.778807 [91m                            $/progress: backgroundIndexProgress REPORT, 1/27, 3.0%[0m
+15:25:09.778807 IN Elapsed: 0s
+15:25:09.778807 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:09.778807 [91m                            $/progress: backgroundIndexProgress REPORT, 1/27, 3.0%[0m
+15:25:09.778807 IN Elapsed: 0s
+15:25:09.778807 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:09.778807 [91m                            $/progress: backgroundIndexProgress REPORT, 1/27, 3.0%[0m
+15:25:09.778807 IN Elapsed: 0s
+15:25:09.778807 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:09.778807 [91m                            $/progress: backgroundIndexProgress REPORT, 1/27, 3.0%[0m
+15:25:09.778807 IN Elapsed: 0s
+15:25:09.778807 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:09.778807 [91m                            $/progress: backgroundIndexProgress REPORT, 1/27, 3.0%[0m
+15:25:10.092190 IN Elapsed: 313.3831ms
+15:25:10.092190 [91mIDE     LS <-- Clangd NOTIF textDocument/publishDiagnostics[0m
+15:25:10.092702 [91m                            textDocument/publishDiagnostics: Ignored by configuration[0m
+15:25:10.092702 IN Elapsed: 0s
+15:25:10.092702 [31mIDE     LS <-- Clangd RESP textDocument/documentSymbol 2[0m
+15:25:10.092702 [92m                textDocument/documentSymbol 1: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp (6 document symbols)[0m
+15:25:10.092702 [92m                textDocument/documentSymbol 1:   > convert SymbolKind:Variable 6:0-6:13[0m
+15:25:10.094230 [92m                textDocument/documentSymbol 1: Range: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:6:0-6:13 -> file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:4:0-4:13 (.ino)[0m
+15:25:10.095761 [92m                textDocument/documentSymbol 1: Range: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:6:6-6:13 -> file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:4:6-4:13 (.ino)[0m
+15:25:10.096264 [92m                textDocument/documentSymbol 1: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp (0 document symbols)[0m
+15:25:10.096271 [92m                textDocument/documentSymbol 1:   > convert SymbolKind:Variable 8:0-8:11[0m
+15:25:10.097288 [92m                textDocument/documentSymbol 1: Range: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:8:0-8:11 -> file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:6:0-6:11 (.ino)[0m
+15:25:10.098811 [92m                textDocument/documentSymbol 1: Range: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:8:4-8:7 -> file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:6:4-6:7 (.ino)[0m
+15:25:10.098811 [92m                textDocument/documentSymbol 1: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp (0 document symbols)[0m
+15:25:10.098811 [92m                textDocument/documentSymbol 1:   > convert SymbolKind:Function 11:0-11:12[0m
+15:25:10.100339 [92m                textDocument/documentSymbol 1: Range is in PREPROCESSED section of the sketch[0m
+15:25:10.100339 [92m                textDocument/documentSymbol 1: Range: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:11:0-11:12 -> file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:8:0-8:12 (.ino)[0m
+15:25:10.100339 [92m                textDocument/documentSymbol 1:     symbol is in the preprocessed section of the sketch.ino.cpp, skipping[0m
+15:25:10.100339 [92m                textDocument/documentSymbol 1:   > convert SymbolKind:Function 13:0-13:11[0m
+15:25:10.101863 [92m                textDocument/documentSymbol 1: Range is in PREPROCESSED section of the sketch[0m
+15:25:10.101863 [92m                textDocument/documentSymbol 1: Range: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:13:0-13:11 -> file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:14:0-14:11 (.ino)[0m
+15:25:10.101863 [92m                textDocument/documentSymbol 1:     symbol is in the preprocessed section of the sketch.ino.cpp, skipping[0m
+15:25:10.102372 [92m                textDocument/documentSymbol 1:   > convert SymbolKind:Function 15:0-19:1[0m
+15:25:10.103393 [92m                textDocument/documentSymbol 1: Range: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:15:0-19:1 -> file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:8:0-12:1 (.ino)[0m
+15:25:10.104919 [92m                textDocument/documentSymbol 1: Range: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:15:5-15:10 -> file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:8:5-8:10 (.ino)[0m
+15:25:10.104919 [92m                textDocument/documentSymbol 1: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp (0 document symbols)[0m
+15:25:10.104919 [92m                textDocument/documentSymbol 1:   > convert SymbolKind:Function 21:0-33:1[0m
+15:25:10.107639 [92m                textDocument/documentSymbol 1: Range: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:21:0-33:1 -> file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:14:0-26:1 (.ino)[0m
+15:25:10.109171 [92m                textDocument/documentSymbol 1: Range: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:21:5-21:9 -> file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:14:5-14:9 (.ino)[0m
+15:25:10.109171 [92m                textDocument/documentSymbol 1: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp (0 document symbols)[0m
+15:25:10.109171 [92m                textDocument/documentSymbol 1: [93mread-unlocked[0m[0m
+15:25:10.109171 [32mIDE <-- LS RESP textDocument/documentSymbol 1[0m
+15:25:10.109171 OUT Elapsed: 0s
+15:25:10.109171 IN Elapsed: 0s
+15:25:10.109689 [32mIDE --> LS RESP window/workDoneProgress/create 1[0m
+15:25:10.109689 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:10.109689 OUT Elapsed: 0s
+15:25:10.109689 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:10.109689 OUT Elapsed: 0s
+15:25:10.562274 IN Elapsed: 469.5715ms
+15:25:10.562274 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:10.562274 [91m                            $/progress: backgroundIndexProgress REPORT, 2/27, 7.0%[0m
+15:25:10.562274 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:10.562274 IN Elapsed: 0s
+15:25:10.562274 OUT Elapsed: 0s
+15:25:10.562274 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:10.562274 [91m                            $/progress: backgroundIndexProgress REPORT, 2/27, 7.0%[0m
+15:25:10.562274 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:10.562786 OUT Elapsed: 512.6µs
+15:25:10.627555 IN Elapsed: 65.2816ms
+15:25:10.627555 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:10.627555 [91m                            $/progress: backgroundIndexProgress REPORT, 3/27, 11.0%[0m
+15:25:10.627555 IN Elapsed: 0s
+15:25:10.627555 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:10.627555 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:10.627555 [91m                            $/progress: backgroundIndexProgress REPORT, 3/27, 11.0%[0m
+15:25:10.627555 OUT Elapsed: 0s
+15:25:10.628070 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:10.628070 OUT Elapsed: 0s
+15:25:10.729850 IN Elapsed: 102.2945ms
+15:25:10.729850 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:10.729850 [91m                            $/progress: backgroundIndexProgress REPORT, 4/27, 14.0%[0m
+15:25:10.729850 IN Elapsed: 0s
+15:25:10.730367 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:10.730367 [91m                            $/progress: backgroundIndexProgress REPORT, 4/27, 14.0%[0m
+15:25:10.730367 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:10.736565 OUT Elapsed: 533.2µs
+15:25:10.736970 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:10.737475 OUT Elapsed: 505.1µs
+15:25:10.786511 IN Elapsed: 49.9461ms
+15:25:10.786511 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:10.786511 [91m                            $/progress: backgroundIndexProgress REPORT, 5/27, 18.0%[0m
+15:25:10.786511 IN Elapsed: 0s
+15:25:10.786511 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:10.786511 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:10.787015 [91m                            $/progress: backgroundIndexProgress REPORT, 5/27, 18.0%[0m
+15:25:10.787047 OUT Elapsed: 32.4µs
+15:25:10.787047 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:10.787047 OUT Elapsed: 0s
+15:25:10.814074 IN Elapsed: 27.0265ms
+15:25:10.814074 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:10.814074 [91m                            $/progress: backgroundIndexProgress REPORT, 6/27, 22.0%[0m
+15:25:10.814074 IN Elapsed: 0s
+15:25:10.814074 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:10.814074 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:10.814074 [91m                            $/progress: backgroundIndexProgress REPORT, 6/27, 22.0%[0m
+15:25:10.814074 OUT Elapsed: 0s
+15:25:10.814074 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:10.814074 OUT Elapsed: 0s
+15:25:10.871142 IN Elapsed: 57.0683ms
+15:25:10.871175 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:10.871175 [91m                            $/progress: backgroundIndexProgress REPORT, 7/27, 25.0%[0m
+15:25:10.871175 IN Elapsed: 0s
+15:25:10.871175 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:10.871175 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:10.871175 [91m                            $/progress: backgroundIndexProgress REPORT, 7/27, 25.0%[0m
+15:25:10.871175 OUT Elapsed: 0s
+15:25:10.871175 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:10.871175 OUT Elapsed: 0s
+15:25:10.884801 IN Elapsed: 13.626ms
+15:25:10.884801 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:10.884801 [91m                            $/progress: backgroundIndexProgress REPORT, 8/27, 29.0%[0m
+15:25:10.884801 IN Elapsed: 0s
+15:25:10.884801 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:10.884801 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:10.884801 OUT Elapsed: 0s
+15:25:10.884801 [91m                            $/progress: backgroundIndexProgress REPORT, 8/27, 29.0%[0m
+15:25:10.885315 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:10.885315 OUT Elapsed: 0s
+15:25:10.916633 IN Elapsed: 31.8314ms
+15:25:10.916633 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:10.916633 [91m                            $/progress: backgroundIndexProgress REPORT, 9/27, 33.0%[0m
+15:25:10.916633 IN Elapsed: 0s
+15:25:10.916633 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:10.916633 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:10.916633 [91m                            $/progress: backgroundIndexProgress REPORT, 9/27, 33.0%[0m
+15:25:10.916633 OUT Elapsed: 0s
+15:25:10.916633 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:10.916633 OUT Elapsed: 0s
+15:25:10.955571 IN Elapsed: 38.9383ms
+15:25:10.955571 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:10.955571 [91m                            $/progress: backgroundIndexProgress REPORT, 10/27, 37.0%[0m
+15:25:10.955571 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:10.955571 OUT Elapsed: 0s
+15:25:10.955571 IN Elapsed: 0s
+15:25:10.955571 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:10.956096 [91m                            $/progress: backgroundIndexProgress REPORT, 10/27, 37.0%[0m
+15:25:10.956096 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:10.956096 OUT Elapsed: 0s
+15:25:10.962840 IN Elapsed: 6.7437ms
+15:25:10.962840 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:10.963350 [91m                            $/progress: backgroundIndexProgress REPORT, 11/27, 40.0%[0m
+15:25:10.963350 IN Elapsed: 0s
+15:25:10.963350 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:10.963350 [91m                            $/progress: backgroundIndexProgress REPORT, 11/27, 40.0%[0m
+15:25:10.963350 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:10.963350 OUT Elapsed: 0s
+15:25:10.963350 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:10.963350 OUT Elapsed: 0s
+15:25:11.151026 IN Elapsed: 187.6756ms
+15:25:11.151026 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:11.151026 [91m                            $/progress: backgroundIndexProgress REPORT, 12/27, 44.0%[0m
+15:25:11.151026 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:11.151544 OUT Elapsed: 504.2µs
+15:25:11.151026 IN Elapsed: 0s
+15:25:11.151544 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:11.151544 [91m                            $/progress: backgroundIndexProgress REPORT, 12/27, 44.0%[0m
+15:25:11.151544 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:11.151544 OUT Elapsed: 0s
+15:25:11.210660 IN Elapsed: 59.1161ms
+15:25:11.210660 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:11.210660 [91m                            $/progress: backgroundIndexProgress REPORT, 13/27, 48.0%[0m
+15:25:11.210660 IN Elapsed: 0s
+15:25:11.210660 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:11.210660 [91m                            $/progress: backgroundIndexProgress REPORT, 13/27, 48.0%[0m
+15:25:11.210660 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:11.210660 OUT Elapsed: 0s
+15:25:11.210660 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:11.210660 OUT Elapsed: 0s
+15:25:11.282811 IN Elapsed: 72.1514ms
+15:25:11.282811 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:11.282811 [91m                            $/progress: backgroundIndexProgress REPORT, 14/27, 51.0%[0m
+15:25:11.282811 IN Elapsed: 0s
+15:25:11.282811 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:11.282811 [91m                            $/progress: backgroundIndexProgress REPORT, 14/27, 51.0%[0m
+15:25:11.282811 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:11.282811 OUT Elapsed: 0s
+15:25:11.282811 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:11.282811 OUT Elapsed: 0s
+15:25:11.312075 IN Elapsed: 29.264ms
+15:25:11.312075 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:11.312075 [91m                            $/progress: backgroundIndexProgress REPORT, 15/27, 55.0%[0m
+15:25:11.312075 IN Elapsed: 0s
+15:25:11.312075 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:11.312075 [91m                            $/progress: backgroundIndexProgress REPORT, 15/27, 55.0%[0m
+15:25:11.312075 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:11.312075 OUT Elapsed: 0s
+15:25:11.312075 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:11.312075 OUT Elapsed: 0s
+15:25:11.439839 IN Elapsed: 127.7642ms
+15:25:11.439839 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:11.440349 [91m                            $/progress: backgroundIndexProgress REPORT, 16/27, 59.0%[0m
+15:25:11.440349 IN Elapsed: 0s
+15:25:11.441414 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:11.441414 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:11.441921 OUT Elapsed: 0s
+15:25:11.441414 [91m                            $/progress: backgroundIndexProgress REPORT, 16/27, 59.0%[0m
+15:25:11.442656 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:11.442656 OUT Elapsed: 0s
+15:25:11.490353 IN Elapsed: 48.4322ms
+15:25:11.490353 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:11.490353 [91m                            $/progress: backgroundIndexProgress REPORT, 17/27, 62.0%[0m
+15:25:11.490353 IN Elapsed: 0s
+15:25:11.490353 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:11.490353 [91m                            $/progress: backgroundIndexProgress REPORT, 17/27, 62.0%[0m
+15:25:11.490353 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:11.490353 OUT Elapsed: 0s
+15:25:11.490353 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:11.490353 OUT Elapsed: 0s
+15:25:11.629378 IN Elapsed: 139.0251ms
+15:25:11.629378 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:11.629378 [91m                            $/progress: backgroundIndexProgress REPORT, 18/27, 66.0%[0m
+15:25:11.629378 IN Elapsed: 0s
+15:25:11.629378 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:11.629378 [91m                            $/progress: backgroundIndexProgress REPORT, 18/27, 66.0%[0m
+15:25:11.629378 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:11.629378 OUT Elapsed: 0s
+15:25:11.629378 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:11.630039 OUT Elapsed: 660.6µs
+15:25:12.085032 IN Elapsed: 455.6538ms
+15:25:12.085032 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:12.085032 [91m                            $/progress: backgroundIndexProgress REPORT, 19/27, 70.0%[0m
+15:25:12.085032 IN Elapsed: 0s
+15:25:12.085032 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:12.085032 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:12.085563 [91m                            $/progress: backgroundIndexProgress REPORT, 19/27, 70.0%[0m
+15:25:12.086616 OUT Elapsed: 1.0529ms
+15:25:12.087144 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:12.087144 OUT Elapsed: 0s
+15:25:12.150148 IN Elapsed: 63.0045ms
+15:25:12.150148 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:12.150148 [91m                            $/progress: backgroundIndexProgress REPORT, 20/27, 74.0%[0m
+15:25:12.150148 IN Elapsed: 0s
+15:25:12.150148 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:12.150148 [91m                            $/progress: backgroundIndexProgress REPORT, 20/27, 74.0%[0m
+15:25:12.150148 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:12.150148 OUT Elapsed: 0s
+15:25:12.150652 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:12.150666 OUT Elapsed: 0s
+15:25:12.150666 IN Elapsed: 518.3µs
+15:25:12.150666 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:12.150666 [91m                            $/progress: backgroundIndexProgress REPORT, 21/27, 77.0%[0m
+15:25:12.150666 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:12.150666 OUT Elapsed: 0s
+15:25:12.150666 IN Elapsed: 0s
+15:25:12.151196 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:12.151196 [91m                            $/progress: backgroundIndexProgress REPORT, 21/27, 77.0%[0m
+15:25:12.151196 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:12.151196 OUT Elapsed: 0s
+15:25:12.278497 IN Elapsed: 127.3011ms
+15:25:12.278497 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:12.278497 [91m                            $/progress: backgroundIndexProgress REPORT, 22/27, 81.0%[0m
+15:25:12.278497 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:12.278497 OUT Elapsed: 0s
+15:25:12.292338 IN Elapsed: 13.8409ms
+15:25:12.292338 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:12.292338 [91m                            $/progress: backgroundIndexProgress REPORT, 23/27, 85.0%[0m
+15:25:12.292338 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:12.292338 OUT Elapsed: 0s
+15:25:12.296445 IN Elapsed: 4.1063ms
+15:25:12.296947 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:12.296968 [91m                            $/progress: backgroundIndexProgress REPORT, 24/27, 88.0%[0m
+15:25:12.296968 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:12.296968 OUT Elapsed: 0s
+15:25:12.440153 IN Elapsed: 143.1843ms
+15:25:12.440153 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:12.440153 [91m                            $/progress: backgroundIndexProgress REPORT, 25/27, 92.0%[0m
+15:25:12.440153 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:12.440153 OUT Elapsed: 0s
+15:25:12.555448 IN Elapsed: 115.2954ms
+15:25:12.555448 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:12.555448 [91m                            $/progress: backgroundIndexProgress REPORT, 26/27, 96.0%[0m
+15:25:12.555448 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:12.555448 OUT Elapsed: 0s
+15:25:12.620408 IN Elapsed: 64.9598ms
+15:25:12.620408 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:12.620408 [91m                            $/progress: backgroundIndexProgress END [0m
+15:25:12.620408 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:12.620408 OUT Elapsed: 0s
+15:25:32.552302 IN Elapsed: 22.4426123s
+15:25:32.552828 [92mIDE --> LS NOTIF ino/didCompleteBuild[0m
+15:25:32.552828 [92m                 ino/didCompleteBuild: [93mwrite-locked[0m[0m
+15:25:32.559597 [92m                 ino/didCompleteBuild: Updated 'libraries.cache'. Copied: C:\Users\Administrator\AppData\Local\Temp\arduino-sketch-7B3EC00E52F1F7DC0054485AFD243908\libraries.cache to C:\Users\Administrator\AppData\Local\Temp\arduino-language-server812076482\libraries.cache[0m
+15:25:32.559597 [92m                 ino/didCompleteBuild: [93mwrite-unlocked[0m[0m
+15:25:33.574532 [95mSKETCH REBUILD: : Sketch rebuild started[0m
+15:25:33.574532 [95mSKETCH REBUILD: : [93mread-locked[0m[0m
+15:25:33.574532 [92mIDE <-- LS REQU window/workDoneProgress/create 2[0m
+15:25:33.574532 [95mSKETCH REBUILD: : [93mread-unlocked[0m[0m
+15:25:33.574532 OUT Elapsed: 0s
+15:25:33.575047 IN Elapsed: 1.0154503s
+15:25:33.575047 [32mIDE --> LS RESP window/workDoneProgress/create 2[0m
+15:25:33.575047 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:33.575623 OUT Elapsed: 576.1µs
+15:25:33.886749 [95mSKETCH REBUILD: : Running build with: {
+  "instance": {
+    "id": 1
+  },
+  "fqbn": "arduino:avr:uno",
+  "sketch_path": "G:\\11.ZhiYi\\5.Tutorial\\1.tutorial\\ZYC0076拍照麦克轮WiFi小车\\ZYC0076\\4_Arduino_Code\\2_servo_Angle",
+  "build_path": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\arduino-language-server812076482",
+  "verbose": true,
+  "create_compilation_database_only": true,
+  "source_override": {
+    "2_servo_Angle.ino": "#include    \u003cServo.h\u003e\r\n\r\n#define servo_PIN    9\r\n\r\nServo myservo;\r\n\r\nint pos = 0;\r\n\r\nvoid setup()\r\n{\r\n    myservo.attach(servo_PIN);\r\n    myservo.write(90);\r\n}\r\n\r\nvoid loop()\r\n{\r\n    for (pos = 170; pos \u003e= 10; pos -= 1) \r\n    { \r\n        clawservo.write(pos);    \r\n        delay(15);\r\n    } \r\n    for (pos = 10; pos \u003c= 170; pos += 1) \r\n    { \r\n        clawservo.write(pos);            \r\n        delay(15);                     \r\n    }\r\n}\r\n"
+  },
+  "skip_libraries_discovery": true
+}[0m
+15:25:34.284733 [95mSKETCH REBUILD: : Compile successful![0m
+15:25:34.323760 [95mSKETCH REBUILD: : [93mwrite-locked[0m[0m
+15:25:34.327580   > Current sketchmapper content:
+15:25:34.328083   0: #include <Arduino.h>                                         | /not-ino:0                                         
+15:25:34.328083   1: #line 1 "G:\\11.ZhiYi\\5.Tutorial\\1.tutorial\\ZYC0076拍照     | /not-ino:0                                         
+15:25:34.328083   2: #include    <Servo.h>                                        | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:0                          
+15:25:34.328132   3:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:1                          
+15:25:34.328132   4: #define servo_PIN    9                                       | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:2                          
+15:25:34.328132   5:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:3                          
+15:25:34.328132   6: Servo myservo;                                               | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:4                          
+15:25:34.328132   7:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:5                          
+15:25:34.328132   8: int pos = 0;                                                 | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:6                          
+15:25:34.328132   9:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:7                          
+15:25:34.328132  10: #line 9 "G:\\11.ZhiYi\\5.Tutorial\\1.tutorial\\ZYC0076拍照     | /not-ino:0                                         
+15:25:34.328132  11: void setup();                                                | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:8 G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:8
+15:25:34.328132  12: #line 15 "G:\\11.ZhiYi\\5.Tutorial\\1.tutorial\\ZYC0076拍�   | /not-ino:0                                         
+15:25:34.328132  13: void loop();                                                 | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:14 G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:14
+15:25:34.328132  14: #line 9 "G:\\11.ZhiYi\\5.Tutorial\\1.tutorial\\ZYC0076拍照     | /not-ino:0                                         
+15:25:34.328132  15: void setup()                                                 | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:8                          
+15:25:34.328132  16: {                                                            | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:9                          
+15:25:34.328132  17:     myservo.attach(servo_PIN);                               | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:10                          
+15:25:34.328132  18:     myservo.write(90);                                       | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:11                          
+15:25:34.328132  19: }                                                            | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:12                          
+15:25:34.328132  20:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:13                          
+15:25:34.328132  21: void loop()                                                  | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:14                          
+15:25:34.328132  22: {                                                            | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:15                          
+15:25:34.328132  23:     for (pos = 170; pos >= 10; pos -= 1)                     | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:16                          
+15:25:34.328132  24:     {                                                        | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:17                          
+15:25:34.328132  25:         clawservo.write(pos);                                | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:18                          
+15:25:34.328132  26:         delay(15);                                           | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:19                          
+15:25:34.328132  27:     }                                                        | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:20                          
+15:25:34.328132  28:     for (pos = 10; pos <= 170; pos += 1)                     | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:21                          
+15:25:34.328132  29:     {                                                        | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:22                          
+15:25:34.328635  30:         clawservo.write(pos);                                | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:23                          
+15:25:34.328635  31:         delay(15);                                           | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:24                          
+15:25:34.328668  32:     }                                                        | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:25                          
+15:25:34.328668  33: }                                                            | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:26                          
+15:25:34.328668  34:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:27                          
+15:25:34.328668  35:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:28                          
+15:25:34.328668 [95mSKETCH REBUILD: : Sending 'didSave' notification to Clangd[0m
+15:25:34.328668 [91mIDE     LS --> Clangd NOTIF textDocument/didSave[0m
+15:25:34.328668 OUT Elapsed: 0s
+15:25:34.328668 [95mSKETCH REBUILD: : Sending full-text 'didChange' notification to Clangd[0m
+15:25:34.328668 [91mIDE     LS --> Clangd NOTIF textDocument/didChange[0m
+15:25:34.328668 OUT Elapsed: 0s
+15:25:34.328668 [95mSKETCH REBUILD: : [93mwrite-unlocked[0m[0m
+15:25:34.328668 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:34.328668 OUT Elapsed: 0s
+15:25:34.399970 IN Elapsed: 21.7795624s
+15:25:34.399970 [91mIDE     LS <-- Clangd REQU window/workDoneProgress/create 1[0m
+15:25:34.399970 [31mIDE     LS --> Clangd RESP window/workDoneProgress/create 1[0m
+15:25:34.399970 [92mIDE <-- LS REQU window/workDoneProgress/create 3[0m
+15:25:34.399970 OUT Elapsed: 0s
+15:25:34.399970 OUT Elapsed: 0s
+15:25:34.399970 IN Elapsed: 0s
+15:25:34.399970 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:34.399970 [91m                            $/progress: backgroundIndexProgress BEGIN indexing, 0.0%[0m
+15:25:34.399970 IN Elapsed: 0s
+15:25:34.399970 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:34.400474 [91m                            $/progress: backgroundIndexProgress REPORT, 0/1, 0.0%[0m
+15:25:34.400505 IN Elapsed: 825.458ms
+15:25:34.400505 [32mIDE --> LS RESP window/workDoneProgress/create 3[0m
+15:25:34.400505 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:34.400505 OUT Elapsed: 0s
+15:25:34.400505 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:34.400505 OUT Elapsed: 0s
+15:25:34.448775 IN Elapsed: 48.3016ms
+15:25:34.448775 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:34.448775 [91m                            $/progress: backgroundIndexProgress REPORT, 0/1, 0.0%[0m
+15:25:34.448775 IN Elapsed: 0s
+15:25:34.448775 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:34.448775 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:34.448775 OUT Elapsed: 0s
+15:25:34.448775 [91m                            $/progress: backgroundIndexProgress END [0m
+15:25:34.448775 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:34.448775 OUT Elapsed: 0s
+15:25:53.194645 IN Elapsed: 18.7941403s
+15:25:53.194645 [92mIDE --> LS REQU textDocument/codeAction 2[0m
+15:25:53.194645 [92m                textDocument/codeAction 2: [93mread-locked[0m[0m
+15:25:53.194645 [92m                textDocument/codeAction 2: --> codeAction(file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:12:1)[0m
+15:25:53.196192 [92m                textDocument/codeAction 2: URI: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp[0m
+15:25:53.199460 [92m                textDocument/codeAction 2:     --> codeAction(file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:12:1)[0m
+15:25:53.199460 [91mIDE     LS --> Clangd REQU textDocument/codeAction 3[0m
+15:25:53.199460 OUT Elapsed: 0s
+15:25:53.203263 IN Elapsed: 18.7544878s
+15:25:53.203263 [31mIDE     LS <-- Clangd RESP textDocument/codeAction 3[0m
+15:25:53.203263 [92m                textDocument/codeAction 2: [93mread-unlocked[0m[0m
+15:25:53.203263 [32mIDE <-- LS RESP textDocument/codeAction 2[0m
+15:25:53.203263 OUT Elapsed: 0s
+15:25:54.024691 IN Elapsed: 821.4283ms
+15:25:54.025245 [92mIDE --> LS NOTIF textDocument/didSave[0m
+15:25:54.025245 [92m                 textDocument/didSave: [93mwrite-locked[0m[0m
+15:25:54.025245 [92m                 textDocument/didSave: notification is not forwarded to clang[0m
+15:25:54.025245 [92m                 textDocument/didSave: [93mwrite-unlocked[0m[0m
+15:25:55.034214 [95mSKETCH REBUILD: : Sketch rebuild started[0m
+15:25:55.034315 [95mSKETCH REBUILD: : [93mread-locked[0m[0m
+15:25:55.034315 [95mSKETCH REBUILD: : [93mread-unlocked[0m[0m
+15:25:55.034315 [92mIDE <-- LS REQU window/workDoneProgress/create 4[0m
+15:25:55.034842 OUT Elapsed: 526.3µs
+15:25:55.034842 IN Elapsed: 1.0095966s
+15:25:55.034842 [32mIDE --> LS RESP window/workDoneProgress/create 4[0m
+15:25:55.035344 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:55.035385 OUT Elapsed: 0s
+15:25:55.348637 [95mSKETCH REBUILD: : Running build with: {
+  "instance": {
+    "id": 1
+  },
+  "fqbn": "arduino:avr:uno",
+  "sketch_path": "G:\\11.ZhiYi\\5.Tutorial\\1.tutorial\\ZYC0076拍照麦克轮WiFi小车\\ZYC0076\\4_Arduino_Code\\2_servo_Angle",
+  "build_path": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\arduino-language-server812076482",
+  "verbose": true,
+  "create_compilation_database_only": true,
+  "source_override": {
+    "2_servo_Angle.ino": "#include    \u003cServo.h\u003e\r\n\r\n#define servo_PIN    9\r\n\r\nServo myservo;\r\n\r\nint pos = 0;\r\n\r\nvoid setup()\r\n{\r\n    myservo.attach(servo_PIN);\r\n    myservo.write(90);\r\n}\r\n\r\nvoid loop()\r\n{\r\n    for (pos = 170; pos \u003e= 10; pos -= 1) \r\n    { \r\n        clawservo.write(pos);    \r\n        delay(15);\r\n    } \r\n    for (pos = 10; pos \u003c= 170; pos += 1) \r\n    { \r\n        clawservo.write(pos);            \r\n        delay(15);                     \r\n    }\r\n}\r\n"
+  },
+  "skip_libraries_discovery": true
+}[0m
+15:25:55.753703 [95mSKETCH REBUILD: : Compile successful![0m
+15:25:55.782168 [95mSKETCH REBUILD: : [93mwrite-locked[0m[0m
+15:25:55.786509   > Current sketchmapper content:
+15:25:55.786509   0: #include <Arduino.h>                                         | /not-ino:0                                         
+15:25:55.787023   1: #line 1 "G:\\11.ZhiYi\\5.Tutorial\\1.tutorial\\ZYC0076拍照     | /not-ino:0                                         
+15:25:55.787023   2: #include    <Servo.h>                                        | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:0                          
+15:25:55.787023   3:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:1                          
+15:25:55.787023   4: #define servo_PIN    9                                       | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:2                          
+15:25:55.787023   5:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:3                          
+15:25:55.787023   6: Servo myservo;                                               | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:4                          
+15:25:55.787023   7:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:5                          
+15:25:55.787023   8: int pos = 0;                                                 | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:6                          
+15:25:55.787023   9:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:7                          
+15:25:55.787023  10: #line 9 "G:\\11.ZhiYi\\5.Tutorial\\1.tutorial\\ZYC0076拍照     | /not-ino:0                                         
+15:25:55.787023  11: void setup();                                                | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:8 G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:8
+15:25:55.787023  12: #line 15 "G:\\11.ZhiYi\\5.Tutorial\\1.tutorial\\ZYC0076拍�   | /not-ino:0                                         
+15:25:55.787023  13: void loop();                                                 | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:14 G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:14
+15:25:55.787023  14: #line 9 "G:\\11.ZhiYi\\5.Tutorial\\1.tutorial\\ZYC0076拍照     | /not-ino:0                                         
+15:25:55.787023  15: void setup()                                                 | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:8                          
+15:25:55.787023  16: {                                                            | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:9                          
+15:25:55.787023  17:     myservo.attach(servo_PIN);                               | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:10                          
+15:25:55.787023  18:     myservo.write(90);                                       | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:11                          
+15:25:55.787023  19: }                                                            | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:12                          
+15:25:55.787023  20:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:13                          
+15:25:55.787023  21: void loop()                                                  | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:14                          
+15:25:55.787023  22: {                                                            | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:15                          
+15:25:55.787023  23:     for (pos = 170; pos >= 10; pos -= 1)                     | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:16                          
+15:25:55.787023  24:     {                                                        | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:17                          
+15:25:55.787023  25:         clawservo.write(pos);                                | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:18                          
+15:25:55.787023  26:         delay(15);                                           | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:19                          
+15:25:55.787526  27:     }                                                        | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:20                          
+15:25:55.787526  28:     for (pos = 10; pos <= 170; pos += 1)                     | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:21                          
+15:25:55.787559  29:     {                                                        | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:22                          
+15:25:55.787559  30:         clawservo.write(pos);                                | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:23                          
+15:25:55.787559  31:         delay(15);                                           | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:24                          
+15:25:55.787559  32:     }                                                        | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:25                          
+15:25:55.787559  33: }                                                            | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:26                          
+15:25:55.787559  34:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:27                          
+15:25:55.787559  35:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:28                          
+15:25:55.787559 [95mSKETCH REBUILD: : Sending 'didSave' notification to Clangd[0m
+15:25:55.787559 [91mIDE     LS --> Clangd NOTIF textDocument/didSave[0m
+15:25:55.787559 OUT Elapsed: 0s
+15:25:55.787559 [95mSKETCH REBUILD: : Sending full-text 'didChange' notification to Clangd[0m
+15:25:55.787559 [91mIDE     LS --> Clangd NOTIF textDocument/didChange[0m
+15:25:55.787559 OUT Elapsed: 0s
+15:25:55.787559 [95mSKETCH REBUILD: : [93mwrite-unlocked[0m[0m
+15:25:55.787559 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:55.788083 OUT Elapsed: 20.2µs
+15:25:55.864457 IN Elapsed: 2.6611942s
+15:25:55.864457 [91mIDE     LS <-- Clangd REQU window/workDoneProgress/create 2[0m
+15:25:55.864457 [31mIDE     LS --> Clangd RESP window/workDoneProgress/create 2[0m
+15:25:55.864457 [92mIDE <-- LS REQU window/workDoneProgress/create 5[0m
+15:25:55.864457 OUT Elapsed: 0s
+15:25:55.864457 OUT Elapsed: 0s
+15:25:55.864457 IN Elapsed: 0s
+15:25:55.864457 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:55.864457 [91m                            $/progress: backgroundIndexProgress BEGIN indexing, 0.0%[0m
+15:25:55.864457 IN Elapsed: 0s
+15:25:55.864457 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:55.864960 IN Elapsed: 830.1185ms
+15:25:55.864960 [91m                            $/progress: backgroundIndexProgress REPORT, 0/1, 0.0%[0m
+15:25:55.865016 [32mIDE --> LS RESP window/workDoneProgress/create 5[0m
+15:25:55.865016 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:55.865016 OUT Elapsed: 0s
+15:25:55.865016 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:55.865016 OUT Elapsed: 0s
+15:25:55.913627 IN Elapsed: 48.6111ms
+15:25:55.913627 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:55.913627 [91m                            $/progress: backgroundIndexProgress REPORT, 0/1, 0.0%[0m
+15:25:55.913627 IN Elapsed: 0s
+15:25:55.913627 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:55.913627 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:25:55.913627 OUT Elapsed: 0s
+15:25:55.913627 [91m                            $/progress: backgroundIndexProgress END [0m
+15:25:55.913627 [92mIDE <-- LS NOTIF $/progress[0m
+15:25:55.913627 OUT Elapsed: 0s
+15:26:12.289737 IN Elapsed: 16.4247217s
+15:26:12.289737 [92mIDE --> LS REQU textDocument/documentHighlight 3[0m
+15:26:12.289737 [92m                textDocument/documentHighlight 3: [93mread-locked[0m[0m
+15:26:12.291476 [92m                textDocument/documentHighlight 3: URI: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp[0m
+15:26:12.294760 [92m                textDocument/documentHighlight 3: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:10:9 -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:17:9[0m
+15:26:12.294760 [91mIDE     LS --> Clangd REQU textDocument/documentHighlight 4[0m
+15:26:12.294760 OUT Elapsed: 0s
+15:26:12.298544 IN Elapsed: 16.3849169s
+15:26:12.298544 [31mIDE     LS <-- Clangd RESP textDocument/documentHighlight 4[0m
+15:26:12.300094 [92m                textDocument/documentHighlight 3: Range: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:6:6-6:13 -> file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:4:6-4:13 (.ino)[0m
+15:26:12.301629 [92m                textDocument/documentHighlight 3: Range: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:17:4-17:11 -> file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:10:4-10:11 (.ino)[0m
+15:26:12.303699 [92m                textDocument/documentHighlight 3: Range: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:18:4-18:11 -> file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:11:4-11:11 (.ino)[0m
+15:26:12.303699 [92m                textDocument/documentHighlight 3: [93mread-unlocked[0m[0m
+15:26:12.303699 [32mIDE <-- LS RESP textDocument/documentHighlight 3[0m
+15:26:12.303699 OUT Elapsed: 0s
+15:26:12.714372 IN Elapsed: 410.6727ms
+15:26:12.714372 [92mIDE --> LS REQU textDocument/codeAction 4[0m
+15:26:12.714970 [92m                textDocument/codeAction 4: [93mread-locked[0m[0m
+15:26:12.715038 [92m                textDocument/codeAction 4: --> codeAction(file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:10:4)[0m
+15:26:12.716852 [92m                textDocument/codeAction 4: URI: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp[0m
+15:26:12.720565 [92m                textDocument/codeAction 4:     --> codeAction(file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:10:4)[0m
+15:26:12.720565 [91mIDE     LS --> Clangd REQU textDocument/codeAction 5[0m
+15:26:12.720565 OUT Elapsed: 0s
+15:26:12.720565 IN Elapsed: 422.0215ms
+15:26:12.721068 [31mIDE     LS <-- Clangd RESP textDocument/codeAction 5[0m
+15:26:12.721101 [92m                textDocument/codeAction 4: [93mread-unlocked[0m[0m
+15:26:12.721101 [32mIDE <-- LS RESP textDocument/codeAction 4[0m
+15:26:12.721101 OUT Elapsed: 0s
+15:26:12.988450 IN Elapsed: 267.3487ms
+15:26:12.988450 [92mIDE --> LS REQU textDocument/definition 5[0m
+15:26:12.988450 [92m                textDocument/definition 5: [93mread-locked[0m[0m
+15:26:12.989543 [92m                textDocument/definition 5: URI: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp[0m
+15:26:12.992812 [92m                textDocument/definition 5: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:11:9 -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:18:9[0m
+15:26:12.992812 [91mIDE     LS --> Clangd REQU textDocument/definition 6[0m
+15:26:12.993346 OUT Elapsed: 534µs
+15:26:12.993346 IN Elapsed: 272.7814ms
+15:26:12.993346 [31mIDE     LS <-- Clangd RESP textDocument/definition 6[0m
+15:26:12.994973 [92m                textDocument/definition 5: Range: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:6:6-6:13 -> file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:4:6-4:13 (.ino)[0m
+15:26:12.994973 [92m                textDocument/definition 5: [93mread-unlocked[0m[0m
+15:26:12.994973 [32mIDE <-- LS RESP textDocument/definition 5[0m
+15:26:12.995476 OUT Elapsed: 502.9µs
+15:26:14.030746 IN Elapsed: 1.0352403s
+15:26:14.030746 [92mIDE --> LS REQU textDocument/documentHighlight 6[0m
+15:26:14.030746 [92m                textDocument/documentHighlight 6: [93mread-locked[0m[0m
+15:26:14.031835 [92m                textDocument/documentHighlight 6: URI: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp[0m
+15:26:14.035627 [92m                textDocument/documentHighlight 6: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:18:12 -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:25:12[0m
+15:26:14.035627 [91mIDE     LS --> Clangd REQU textDocument/documentHighlight 7[0m
+15:26:14.035627 OUT Elapsed: 0s
+15:26:14.036212 IN Elapsed: 1.0428651s
+15:26:14.036212 [31mIDE     LS <-- Clangd RESP textDocument/documentHighlight 7[0m
+15:26:14.036212 [92m                textDocument/documentHighlight 6: [93mread-unlocked[0m[0m
+15:26:14.036212 [32mIDE <-- LS RESP textDocument/documentHighlight 6[0m
+15:26:14.036212 OUT Elapsed: 0s
+15:26:14.415943 IN Elapsed: 379.7317ms
+15:26:14.415943 [92mIDE --> LS REQU textDocument/codeAction 7[0m
+15:26:14.415943 [92m                textDocument/codeAction 7: [93mread-locked[0m[0m
+15:26:14.415943 [92m                textDocument/codeAction 7: --> codeAction(file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:18:8)[0m
+15:26:14.417266 [92m                textDocument/codeAction 7: URI: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp[0m
+15:26:14.420461 [92m                textDocument/codeAction 7:     --> codeAction(file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:18:8)[0m
+15:26:14.420461 [91mIDE     LS --> Clangd REQU textDocument/codeAction 8[0m
+15:26:14.420461 OUT Elapsed: 0s
+15:26:14.420995 IN Elapsed: 384.783ms
+15:26:14.420995 [31mIDE     LS <-- Clangd RESP textDocument/codeAction 8[0m
+15:26:14.420995 [92m                textDocument/codeAction 7: [93mread-unlocked[0m[0m
+15:26:14.420995 [32mIDE <-- LS RESP textDocument/codeAction 7[0m
+15:26:14.420995 OUT Elapsed: 0s
+15:26:14.518842 IN Elapsed: 97.8475ms
+15:26:14.518842 [92mIDE --> LS REQU textDocument/definition 8[0m
+15:26:14.518842 [92m                textDocument/definition 8: [93mread-locked[0m[0m
+15:26:14.519943 [92m                textDocument/definition 8: URI: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp[0m
+15:26:14.523213 [92m                textDocument/definition 8: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:18:12 -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:25:12[0m
+15:26:14.523213 [91mIDE     LS --> Clangd REQU textDocument/definition 9[0m
+15:26:14.523715 OUT Elapsed: 502.5µs
+15:26:14.523818 IN Elapsed: 102.8236ms
+15:26:14.523818 [31mIDE     LS <-- Clangd RESP textDocument/definition 9[0m
+15:26:14.523818 [92m                textDocument/definition 8: [93mread-unlocked[0m[0m
+15:26:14.523818 [32mIDE <-- LS RESP textDocument/definition 8[0m
+15:26:14.523818 OUT Elapsed: 0s
+15:26:14.720748 IN Elapsed: 196.9295ms
+15:26:14.720748 [92mIDE --> LS REQU textDocument/definition 9[0m
+15:26:14.720748 [92m                textDocument/definition 9: [93mread-locked[0m[0m
+15:26:14.721811 [92m                textDocument/definition 9: URI: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp[0m
+15:26:14.725443 [92m                textDocument/definition 9: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:23:16 -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:30:16[0m
+15:26:14.725557 [91mIDE     LS --> Clangd REQU textDocument/definition 10[0m
+15:26:14.725590 OUT Elapsed: 0s
+15:26:14.725590 IN Elapsed: 201.7719ms
+15:26:14.725590 [31mIDE     LS <-- Clangd RESP textDocument/definition 10[0m
+15:26:14.725590 [92m                textDocument/definition 9: [93mread-unlocked[0m[0m
+15:26:14.725590 [32mIDE <-- LS RESP textDocument/definition 9[0m
+15:26:14.725590 OUT Elapsed: 0s
+15:26:15.213770 IN Elapsed: 488.1797ms
+15:26:15.213838 [92mIDE --> LS REQU textDocument/definition 10[0m
+15:26:15.213871 [92m                textDocument/definition 10: [93mread-locked[0m[0m
+15:26:15.215210 [92m                textDocument/definition 10: URI: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp[0m
+15:26:15.218338 [92m                textDocument/definition 10: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:24:16 -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:31:16[0m
+15:26:15.218338 [91mIDE     LS --> Clangd REQU textDocument/definition 11[0m
+15:26:15.218849 OUT Elapsed: 510.8µs
+15:26:15.218849 IN Elapsed: 493.2589ms
+15:26:15.218849 [31mIDE     LS <-- Clangd RESP textDocument/definition 11[0m
+15:26:15.224252 [92m                textDocument/definition 10: Range: file:///C:/Users/Administrator/AppData/Local/Arduino15/packages/arduino/hardware/avr/1.8.5/cores/arduino/wiring.c:105:5-105:10 -> file:///C:/Users/Administrator/AppData/Local/Arduino15/packages/arduino/hardware/avr/1.8.5/cores/arduino/wiring.c:105:5-105:10 (ext file)[0m
+15:26:15.224252 [92m                textDocument/definition 10: [93mread-unlocked[0m[0m
+15:26:15.224252 [32mIDE <-- LS RESP textDocument/definition 10[0m
+15:26:15.224754 OUT Elapsed: 502.7µs
+15:26:15.248073 IN Elapsed: 23.3184ms
+15:26:15.248073 [92mIDE --> LS NOTIF textDocument/didOpen[0m
+15:26:15.248576 [92m                 textDocument/didOpen: [93mwrite-locked[0m[0m
+15:26:15.250895 [92m                 textDocument/didOpen: ERROR: could not determine if 'C:\Users\Administrator\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.5\cores\arduino\wiring.c' is inside 'G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle'[0m
+15:26:15.250895 [92m                 textDocument/didOpen: Error: Document is not available: file:///c%3A/Users/Administrator/AppData/Local/Arduino15/packages/arduino/hardware/avr/1.8.5/cores/arduino/wiring.c[0m
+15:26:15.250895 [92m                 textDocument/didOpen: [93mwrite-unlocked[0m[0m
+15:26:15.250895 IN Elapsed: 0s
+15:26:15.250895 [92mIDE --> LS NOTIF textDocument/didClose[0m
+15:26:15.250895 [92m                 textDocument/didClose: [93mwrite-locked[0m[0m
+15:26:15.253666 [92m                 textDocument/didClose: didClose of untracked document: file:///c%3A/Users/Administrator/AppData/Local/Arduino15/packages/arduino/hardware/avr/1.8.5/cores/arduino/wiring.c[0m
+15:26:15.253666 [92m                 textDocument/didClose: [93mwrite-unlocked[0m[0m
+15:26:15.364881 IN Elapsed: 111.215ms
+15:26:15.364881 [92mIDE --> LS REQU textDocument/hover 11[0m
+15:26:15.364881 [92m                textDocument/hover 11: [93mread-locked[0m[0m
+15:26:15.365953 [92m                textDocument/hover 11: URI: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp[0m
+15:26:15.369565 [92m                textDocument/hover 11: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:24:16 -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:31:16[0m
+15:26:15.369565 [91mIDE     LS --> Clangd REQU textDocument/hover 12[0m
+15:26:15.369565 OUT Elapsed: 0s
+15:26:15.373199 IN Elapsed: 154.35ms
+15:26:15.373709 [31mIDE     LS <-- Clangd RESP textDocument/hover 12[0m
+15:26:15.375238 [92m                textDocument/hover 11: Range: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:31:16-31:17 -> file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:24:16-24:17 (.ino)[0m
+15:26:15.375238 [92m                textDocument/hover 11: Hover content: "### function `delay`  \n\n---\n→ `void`  \nParameters:  \n- `unsigned long ms`\n\n---\n```cpp\nvoid delay(unsigned long ms)\n```"[0m
+15:26:15.375238 [92m                textDocument/hover 11: [93mread-unlocked[0m[0m
+15:26:15.375238 [32mIDE <-- LS RESP textDocument/hover 11[0m
+15:26:15.375238 OUT Elapsed: 0s
+15:26:15.927331 IN Elapsed: 552.0937ms
+15:26:15.927331 [92mIDE --> LS REQU textDocument/hover 12[0m
+15:26:15.927331 [92m                textDocument/hover 12: [93mread-locked[0m[0m
+15:26:15.928424 [92m                textDocument/hover 12: URI: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp[0m
+15:26:15.931599 [92m                textDocument/hover 12: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:24:16 -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:31:16[0m
+15:26:15.931599 [91mIDE     LS --> Clangd REQU textDocument/hover 13[0m
+15:26:15.931599 OUT Elapsed: 0s
+15:26:15.935463 IN Elapsed: 561.7536ms
+15:26:15.935463 [31mIDE     LS <-- Clangd RESP textDocument/hover 13[0m
+15:26:15.937081 [92m                textDocument/hover 12: Range: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:31:16-31:17 -> file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:24:16-24:17 (.ino)[0m
+15:26:15.937081 [92m                textDocument/hover 12: Hover content: "### function `delay`  \n\n---\n→ `void`  \nParameters:  \n- `unsigned long ms`\n\n---\n```cpp\nvoid delay(unsigned long ms)\n```"[0m
+15:26:15.937081 [92m                textDocument/hover 12: [93mread-unlocked[0m[0m
+15:26:15.937081 [32mIDE <-- LS RESP textDocument/hover 12[0m
+15:26:15.937616 OUT Elapsed: 32.6µs
+15:26:16.035545 IN Elapsed: 97.9289ms
+15:26:16.035545 [92mIDE --> LS REQU textDocument/codeAction 13[0m
+15:26:16.035545 [92m                textDocument/codeAction 13: [93mread-locked[0m[0m
+15:26:16.035545 [92m                textDocument/codeAction 13: --> codeAction(file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:18:8)[0m
+15:26:16.036650 [92m                textDocument/codeAction 13: URI: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp[0m
+15:26:16.040344 [92m                textDocument/codeAction 13:     --> codeAction(file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:18:8)[0m
+15:26:16.040456 [91mIDE     LS --> Clangd REQU textDocument/codeAction 14[0m
+15:26:16.040456 OUT Elapsed: 0s
+15:26:16.040456 IN Elapsed: 104.9929ms
+15:26:16.040456 [31mIDE     LS <-- Clangd RESP textDocument/codeAction 14[0m
+15:26:16.040966 [92m                textDocument/codeAction 13: [93mread-unlocked[0m[0m
+15:26:16.040966 [32mIDE <-- LS RESP textDocument/codeAction 13[0m
+15:26:16.040966 OUT Elapsed: 0s
+15:26:16.215550 IN Elapsed: 174.5839ms
+15:26:16.215885 [92mIDE --> LS REQU textDocument/documentSymbol 14[0m
+15:26:16.215885 [92m                textDocument/documentSymbol 14: [93mread-locked[0m[0m
+15:26:16.216914 [92m                textDocument/documentSymbol 14: URI: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp[0m
+15:26:16.216914 [91mIDE     LS --> Clangd REQU textDocument/documentSymbol 15[0m
+15:26:16.216914 OUT Elapsed: 0s
+15:26:16.217502 IN Elapsed: 177.0469ms
+15:26:16.217502 [31mIDE     LS <-- Clangd RESP textDocument/documentSymbol 15[0m
+15:26:16.217502 [92m                textDocument/documentSymbol 14: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp (6 document symbols)[0m
+15:26:16.217502 [92m                textDocument/documentSymbol 14:   > convert SymbolKind:Variable 6:0-6:13[0m
+15:26:16.219684 [92m                textDocument/documentSymbol 14: Range: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:6:0-6:13 -> file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:4:0-4:13 (.ino)[0m
+15:26:16.222091 [92m                textDocument/documentSymbol 14: Range: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:6:6-6:13 -> file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:4:6-4:13 (.ino)[0m
+15:26:16.222091 [92m                textDocument/documentSymbol 14: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp (0 document symbols)[0m
+15:26:16.222091 [92m                textDocument/documentSymbol 14:   > convert SymbolKind:Variable 8:0-8:11[0m
+15:26:16.223739 [92m                textDocument/documentSymbol 14: Range: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:8:0-8:11 -> file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:6:0-6:11 (.ino)[0m
+15:26:16.224943 [92m                textDocument/documentSymbol 14: Range: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:8:4-8:7 -> file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:6:4-6:7 (.ino)[0m
+15:26:16.224943 [92m                textDocument/documentSymbol 14: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp (0 document symbols)[0m
+15:26:16.224943 [92m                textDocument/documentSymbol 14:   > convert SymbolKind:Function 11:0-11:12[0m
+15:26:16.226472 [92m                textDocument/documentSymbol 14: Range is in PREPROCESSED section of the sketch[0m
+15:26:16.226472 [92m                textDocument/documentSymbol 14: Range: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:11:0-11:12 -> file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:8:0-8:12 (.ino)[0m
+15:26:16.226472 [92m                textDocument/documentSymbol 14:     symbol is in the preprocessed section of the sketch.ino.cpp, skipping[0m
+15:26:16.226472 [92m                textDocument/documentSymbol 14:   > convert SymbolKind:Function 13:0-13:11[0m
+15:26:16.227999 [92m                textDocument/documentSymbol 14: Range is in PREPROCESSED section of the sketch[0m
+15:26:16.227999 [92m                textDocument/documentSymbol 14: Range: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:13:0-13:11 -> file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:14:0-14:11 (.ino)[0m
+15:26:16.227999 [92m                textDocument/documentSymbol 14:     symbol is in the preprocessed section of the sketch.ino.cpp, skipping[0m
+15:26:16.227999 [92m                textDocument/documentSymbol 14:   > convert SymbolKind:Function 15:0-19:1[0m
+15:26:16.229578 [92m                textDocument/documentSymbol 14: Range: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:15:0-19:1 -> file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:8:0-12:1 (.ino)[0m
+15:26:16.231253 [92m                textDocument/documentSymbol 14: Range: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:15:5-15:10 -> file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:8:5-8:10 (.ino)[0m
+15:26:16.231253 [92m                textDocument/documentSymbol 14: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp (0 document symbols)[0m
+15:26:16.231253 [92m                textDocument/documentSymbol 14:   > convert SymbolKind:Function 21:0-33:1[0m
+15:26:16.232839 [92m                textDocument/documentSymbol 14: Range: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:21:0-33:1 -> file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:14:0-26:1 (.ino)[0m
+15:26:16.234018 [92m                textDocument/documentSymbol 14: Range: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:21:5-21:9 -> file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:14:5-14:9 (.ino)[0m
+15:26:16.234018 [92m                textDocument/documentSymbol 14: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp (0 document symbols)[0m
+15:26:16.234018 [92m                textDocument/documentSymbol 14: [93mread-unlocked[0m[0m
+15:26:16.234018 [32mIDE <-- LS RESP textDocument/documentSymbol 14[0m
+15:26:16.234018 OUT Elapsed: 0s
+15:26:16.234527 IN Elapsed: 5.7µs
+15:26:16.234527 [92mIDE --> LS NOTIF textDocument/didChange[0m
+15:26:16.234527 [92m                 textDocument/didChange: [93mwrite-locked[0m[0m
+15:26:16.234527 [92m                 textDocument/didChange: didChange(file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino@36)[0m
+15:26:16.234527 [92m                 textDocument/didChange:   > 23:8-23:17 (len=9) -> "myservo"[0m
+15:26:16.234527 [92m                 textDocument/didChange:   > 18:8-18:17 (len=9) -> "myservo"[0m
+15:26:16.235613 [92m                 textDocument/didChange: -----Tracked SKETCH file-----
+#include    <Servo.h>
+
+#define servo_PIN    9
+
+Servo myservo;
+
+int pos = 0;
+
+void setup()
+{
+    myservo.attach(servo_PIN);
+    myservo.write(90);
+}
+
+void loop()
+{
+    for (pos = 170; pos >= 10; pos -= 1) 
+    { 
+        myservo.write(pos);    
+        delay(15);
+    } 
+    for (pos = 10; pos <= 170; pos += 1) 
+    { 
+        myservo.write(pos);            
+        delay(15);                     
+    }
+}
+
+-----------------------------[0m
+15:26:16.236916 [92m                 textDocument/didChange: URI: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp[0m
+15:26:16.242398 Ino Range: 23:8-23:17 -> Cpp Range:30:8-30:17
+15:26:16.243486 [92m                 textDocument/didChange: URI: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp[0m
+15:26:16.248825 Ino Range: 18:8-18:17 -> Cpp Range:25:8-25:17
+15:26:16.248856   > Current sketchmapper content:
+15:26:16.248856   0: #include <Arduino.h>                                         | /not-ino:0                                         
+15:26:16.248856   1: #line 1 "G:\\11.ZhiYi\\5.Tutorial\\1.tutorial\\ZYC0076拍照     | /not-ino:0                                         
+15:26:16.248856   2: #include    <Servo.h>                                        | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:0                          
+15:26:16.248856   3:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:1                          
+15:26:16.248856   4: #define servo_PIN    9                                       | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:2                          
+15:26:16.248856   5:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:3                          
+15:26:16.248856   6: Servo myservo;                                               | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:4                          
+15:26:16.248856   7:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:5                          
+15:26:16.248856   8: int pos = 0;                                                 | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:6                          
+15:26:16.248856   9:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:7                          
+15:26:16.248856  10: #line 9 "G:\\11.ZhiYi\\5.Tutorial\\1.tutorial\\ZYC0076拍照     | /not-ino:0                                         
+15:26:16.248856  11: void setup();                                                | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:8 G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:8
+15:26:16.248856  12: #line 15 "G:\\11.ZhiYi\\5.Tutorial\\1.tutorial\\ZYC0076拍�   | /not-ino:0                                         
+15:26:16.248856  13: void loop();                                                 | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:14 G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:14
+15:26:16.248856  14: #line 9 "G:\\11.ZhiYi\\5.Tutorial\\1.tutorial\\ZYC0076拍照     | /not-ino:0                                         
+15:26:16.248856  15: void setup()                                                 | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:8                          
+15:26:16.248856  16: {                                                            | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:9                          
+15:26:16.248856  17:     myservo.attach(servo_PIN);                               | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:10                          
+15:26:16.248856  18:     myservo.write(90);                                       | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:11                          
+15:26:16.248856  19: }                                                            | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:12                          
+15:26:16.248856  20:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:13                          
+15:26:16.248856  21: void loop()                                                  | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:14                          
+15:26:16.248856  22: {                                                            | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:15                          
+15:26:16.248856  23:     for (pos = 170; pos >= 10; pos -= 1)                     | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:16                          
+15:26:16.249359  24:     {                                                        | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:17                          
+15:26:16.249366  25:         myservo.write(pos);                                  | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:18                          
+15:26:16.249366  26:         delay(15);                                           | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:19                          
+15:26:16.249366  27:     }                                                        | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:20                          
+15:26:16.249366  28:     for (pos = 10; pos <= 170; pos += 1)                     | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:21                          
+15:26:16.249366  29:     {                                                        | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:22                          
+15:26:16.249366  30:         myservo.write(pos);                                  | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:23                          
+15:26:16.249366  31:         delay(15);                                           | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:24                          
+15:26:16.249366  32:     }                                                        | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:25                          
+15:26:16.249366  33: }                                                            | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:26                          
+15:26:16.249366  34:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:27                          
+15:26:16.249366  35:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:28                          
+15:26:16.249366 [92m                 textDocument/didChange: to Clang: didChange(file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp@5)[0m
+15:26:16.249366 [92m                 textDocument/didChange:             > 30:8-30:17 -> "myservo"[0m
+15:26:16.249366 [92m                 textDocument/didChange:             > 25:8-25:17 -> "myservo"[0m
+15:26:16.249366 [91mIDE     LS --> Clangd NOTIF textDocument/didChange[0m
+15:26:16.249366 OUT Elapsed: 0s
+15:26:16.249366 [92m                 textDocument/didChange: [93mwrite-unlocked[0m[0m
+15:26:16.249366 IN Elapsed: 0s
+15:26:16.249366 IN Elapsed: 0s
+15:26:16.249868 [92mIDE --> LS REQU textDocument/documentSymbol 15[0m
+15:26:16.249910 [92m                textDocument/documentSymbol 15: [93mread-locked[0m[0m
+15:26:16.250454 [92m                textDocument/documentSymbol 15: URI: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp[0m
+15:26:16.250454 [91mIDE     LS --> Clangd REQU textDocument/documentSymbol 16[0m
+15:26:16.250992 OUT Elapsed: 35µs
+15:26:16.355065 IN Elapsed: 137.5621ms
+15:26:16.355065 [31mIDE     LS <-- Clangd RESP textDocument/documentSymbol 16[0m
+15:26:16.355065 [92m                textDocument/documentSymbol 15: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp (6 document symbols)[0m
+15:26:16.355568 [92m                textDocument/documentSymbol 15:   > convert SymbolKind:Variable 6:0-6:13[0m
+15:26:16.356758 IN Elapsed: 1.6933ms
+15:26:16.356758 [91mIDE     LS <-- Clangd NOTIF textDocument/publishDiagnostics[0m
+15:26:16.356758 [91m                            textDocument/publishDiagnostics: Ignored by configuration[0m
+15:26:16.356758 [92m                textDocument/documentSymbol 15: Range: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:6:0-6:13 -> file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:4:0-4:13 (.ino)[0m
+15:26:16.358403 [92m                textDocument/documentSymbol 15: Range: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:6:6-6:13 -> file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:4:6-4:13 (.ino)[0m
+15:26:16.358403 [92m                textDocument/documentSymbol 15: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp (0 document symbols)[0m
+15:26:16.358403 [92m                textDocument/documentSymbol 15:   > convert SymbolKind:Variable 8:0-8:11[0m
+15:26:16.360115 [92m                textDocument/documentSymbol 15: Range: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:8:0-8:11 -> file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:6:0-6:11 (.ino)[0m
+15:26:16.361676 [92m                textDocument/documentSymbol 15: Range: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:8:4-8:7 -> file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:6:4-6:7 (.ino)[0m
+15:26:16.361676 [92m                textDocument/documentSymbol 15: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp (0 document symbols)[0m
+15:26:16.361676 [92m                textDocument/documentSymbol 15:   > convert SymbolKind:Function 11:0-11:12[0m
+15:26:16.363221 [92m                textDocument/documentSymbol 15: Range is in PREPROCESSED section of the sketch[0m
+15:26:16.363221 [92m                textDocument/documentSymbol 15: Range: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:11:0-11:12 -> file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:8:0-8:12 (.ino)[0m
+15:26:16.363221 [92m                textDocument/documentSymbol 15:     symbol is in the preprocessed section of the sketch.ino.cpp, skipping[0m
+15:26:16.363221 [92m                textDocument/documentSymbol 15:   > convert SymbolKind:Function 13:0-13:11[0m
+15:26:16.364894 [92m                textDocument/documentSymbol 15: Range is in PREPROCESSED section of the sketch[0m
+15:26:16.364894 [92m                textDocument/documentSymbol 15: Range: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:13:0-13:11 -> file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:14:0-14:11 (.ino)[0m
+15:26:16.364894 [92m                textDocument/documentSymbol 15:     symbol is in the preprocessed section of the sketch.ino.cpp, skipping[0m
+15:26:16.364894 [92m                textDocument/documentSymbol 15:   > convert SymbolKind:Function 15:0-19:1[0m
+15:26:16.366423 [92m                textDocument/documentSymbol 15: Range: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:15:0-19:1 -> file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:8:0-12:1 (.ino)[0m
+15:26:16.367953 [92m                textDocument/documentSymbol 15: Range: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:15:5-15:10 -> file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:8:5-8:10 (.ino)[0m
+15:26:16.367953 [92m                textDocument/documentSymbol 15: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp (0 document symbols)[0m
+15:26:16.367953 [92m                textDocument/documentSymbol 15:   > convert SymbolKind:Function 21:0-33:1[0m
+15:26:16.369504 [92m                textDocument/documentSymbol 15: Range: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:21:0-33:1 -> file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:14:0-26:1 (.ino)[0m
+15:26:16.371029 [92m                textDocument/documentSymbol 15: Range: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:21:5-21:9 -> file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:14:5-14:9 (.ino)[0m
+15:26:16.371061 [92m                textDocument/documentSymbol 15: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp (0 document symbols)[0m
+15:26:16.371061 [92m                textDocument/documentSymbol 15: [93mread-unlocked[0m[0m
+15:26:16.371061 [32mIDE <-- LS RESP textDocument/documentSymbol 15[0m
+15:26:16.371061 OUT Elapsed: 0s
+15:26:16.458269 IN Elapsed: 87.2082ms
+15:26:16.458269 [92mIDE --> LS REQU textDocument/codeAction 16[0m
+15:26:16.458269 [92m                textDocument/codeAction 16: [93mread-locked[0m[0m
+15:26:16.458269 [92m                textDocument/codeAction 16: --> codeAction(file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:18:15)[0m
+15:26:16.459361 [92m                textDocument/codeAction 16: URI: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp[0m
+15:26:16.462975 [92m                textDocument/codeAction 16:     --> codeAction(file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:18:15)[0m
+15:26:16.462975 [91mIDE     LS --> Clangd REQU textDocument/codeAction 17[0m
+15:26:16.462975 OUT Elapsed: 0s
+15:26:16.462975 IN Elapsed: 106.2173ms
+15:26:16.462975 [31mIDE     LS <-- Clangd RESP textDocument/codeAction 17[0m
+15:26:16.463487 [92m                textDocument/codeAction 16: [93mread-unlocked[0m[0m
+15:26:16.463487 [32mIDE <-- LS RESP textDocument/codeAction 16[0m
+15:26:16.463487 OUT Elapsed: 0s
+15:26:17.108528 IN Elapsed: 645.0409ms
+15:26:17.108615 [92mIDE --> LS REQU textDocument/codeAction 17[0m
+15:26:17.108861 [92m                textDocument/codeAction 17: [93mread-locked[0m[0m
+15:26:17.108861 [92m                textDocument/codeAction 17: --> codeAction(file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:25:5)[0m
+15:26:17.110452 [92m                textDocument/codeAction 17: URI: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp[0m
+15:26:17.114192 [92m                textDocument/codeAction 17:     --> codeAction(file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:25:5)[0m
+15:26:17.114192 [91mIDE     LS --> Clangd REQU textDocument/codeAction 18[0m
+15:26:17.114192 OUT Elapsed: 0s
+15:26:17.114703 IN Elapsed: 651.7282ms
+15:26:17.114703 [31mIDE     LS <-- Clangd RESP textDocument/codeAction 18[0m
+15:26:17.114703 [92m                textDocument/codeAction 17: [93mread-unlocked[0m[0m
+15:26:17.114703 [32mIDE <-- LS RESP textDocument/codeAction 17[0m
+15:26:17.114703 OUT Elapsed: 0s
+15:26:17.222112 IN Elapsed: 107.4085ms
+15:26:17.222112 [92mIDE --> LS NOTIF textDocument/didSave[0m
+15:26:17.222112 [92m                 textDocument/didSave: [93mwrite-locked[0m[0m
+15:26:17.222112 [92m                 textDocument/didSave: notification is not forwarded to clang[0m
+15:26:17.222112 [92m                 textDocument/didSave: [93mwrite-unlocked[0m[0m
+15:26:17.825132 IN Elapsed: 603.0197ms
+15:26:17.825132 [92mIDE --> LS NOTIF textDocument/didSave[0m
+15:26:17.825132 [92m                 textDocument/didSave: [93mwrite-locked[0m[0m
+15:26:17.825132 [92m                 textDocument/didSave: notification is not forwarded to clang[0m
+15:26:17.825132 [92m                 textDocument/didSave: [93mwrite-unlocked[0m[0m
+15:26:18.100926 IN Elapsed: 275.7941ms
+15:26:18.100926 [92mIDE --> LS NOTIF textDocument/didSave[0m
+15:26:18.100926 [92m                 textDocument/didSave: [93mwrite-locked[0m[0m
+15:26:18.100926 [92m                 textDocument/didSave: notification is not forwarded to clang[0m
+15:26:18.100926 [92m                 textDocument/didSave: [93mwrite-unlocked[0m[0m
+15:26:18.327840 IN Elapsed: 226.9147ms
+15:26:18.327840 [92mIDE --> LS NOTIF textDocument/didSave[0m
+15:26:18.327840 [92m                 textDocument/didSave: [93mwrite-locked[0m[0m
+15:26:18.327840 [92m                 textDocument/didSave: notification is not forwarded to clang[0m
+15:26:18.327840 [92m                 textDocument/didSave: [93mwrite-unlocked[0m[0m
+15:26:18.564671 IN Elapsed: 236.8304ms
+15:26:18.564671 [92mIDE --> LS NOTIF textDocument/didSave[0m
+15:26:18.564671 [92m                 textDocument/didSave: [93mwrite-locked[0m[0m
+15:26:18.564671 [92m                 textDocument/didSave: notification is not forwarded to clang[0m
+15:26:18.564671 [92m                 textDocument/didSave: [93mwrite-unlocked[0m[0m
+15:26:19.571928 [95mSKETCH REBUILD: : Sketch rebuild started[0m
+15:26:19.572337 [95mSKETCH REBUILD: : [93mread-locked[0m[0m
+15:26:19.572337 [92mIDE <-- LS REQU window/workDoneProgress/create 6[0m
+15:26:19.572337 [95mSKETCH REBUILD: : [93mread-unlocked[0m[0m
+15:26:19.573493 OUT Elapsed: 608.2µs
+15:26:19.574591 IN Elapsed: 1.0099198s
+15:26:19.574591 [32mIDE --> LS RESP window/workDoneProgress/create 6[0m
+15:26:19.575099 [92mIDE <-- LS NOTIF $/progress[0m
+15:26:19.575151 OUT Elapsed: 0s
+15:26:19.881850 [95mSKETCH REBUILD: : Running build with: {
+  "instance": {
+    "id": 1
+  },
+  "fqbn": "arduino:avr:uno",
+  "sketch_path": "G:\\11.ZhiYi\\5.Tutorial\\1.tutorial\\ZYC0076拍照麦克轮WiFi小车\\ZYC0076\\4_Arduino_Code\\2_servo_Angle",
+  "build_path": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\arduino-language-server812076482",
+  "verbose": true,
+  "create_compilation_database_only": true,
+  "source_override": {
+    "2_servo_Angle.ino": "#include    \u003cServo.h\u003e\r\n\r\n#define servo_PIN    9\r\n\r\nServo myservo;\r\n\r\nint pos = 0;\r\n\r\nvoid setup()\r\n{\r\n    myservo.attach(servo_PIN);\r\n    myservo.write(90);\r\n}\r\n\r\nvoid loop()\r\n{\r\n    for (pos = 170; pos \u003e= 10; pos -= 1) \r\n    { \r\n        myservo.write(pos);    \r\n        delay(15);\r\n    } \r\n    for (pos = 10; pos \u003c= 170; pos += 1) \r\n    { \r\n        myservo.write(pos);            \r\n        delay(15);                     \r\n    }\r\n}\r\n"
+  },
+  "skip_libraries_discovery": true
+}[0m
+15:26:20.298243 [95mSKETCH REBUILD: : Compile successful![0m
+15:26:20.331572 [95mSKETCH REBUILD: : [93mwrite-locked[0m[0m
+15:26:20.335596   > Current sketchmapper content:
+15:26:20.335596   0: #include <Arduino.h>                                         | /not-ino:0                                         
+15:26:20.336105   1: #line 1 "G:\\11.ZhiYi\\5.Tutorial\\1.tutorial\\ZYC0076拍照     | /not-ino:0                                         
+15:26:20.336105   2: #include    <Servo.h>                                        | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:0                          
+15:26:20.336105   3:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:1                          
+15:26:20.336105   4: #define servo_PIN    9                                       | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:2                          
+15:26:20.336105   5:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:3                          
+15:26:20.336105   6: Servo myservo;                                               | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:4                          
+15:26:20.336105   7:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:5                          
+15:26:20.336105   8: int pos = 0;                                                 | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:6                          
+15:26:20.336105   9:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:7                          
+15:26:20.336105  10: #line 9 "G:\\11.ZhiYi\\5.Tutorial\\1.tutorial\\ZYC0076拍照     | /not-ino:0                                         
+15:26:20.336105  11: void setup();                                                | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:8 G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:8
+15:26:20.336105  12: #line 15 "G:\\11.ZhiYi\\5.Tutorial\\1.tutorial\\ZYC0076拍�   | /not-ino:0                                         
+15:26:20.336105  13: void loop();                                                 | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:14 G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:14
+15:26:20.336105  14: #line 9 "G:\\11.ZhiYi\\5.Tutorial\\1.tutorial\\ZYC0076拍照     | /not-ino:0                                         
+15:26:20.336105  15: void setup()                                                 | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:8                          
+15:26:20.336105  16: {                                                            | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:9                          
+15:26:20.336105  17:     myservo.attach(servo_PIN);                               | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:10                          
+15:26:20.336105  18:     myservo.write(90);                                       | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:11                          
+15:26:20.336105  19: }                                                            | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:12                          
+15:26:20.336105  20:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:13                          
+15:26:20.336105  21: void loop()                                                  | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:14                          
+15:26:20.336105  22: {                                                            | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:15                          
+15:26:20.336105  23:     for (pos = 170; pos >= 10; pos -= 1)                     | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:16                          
+15:26:20.336105  24:     {                                                        | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:17                          
+15:26:20.336105  25:         myservo.write(pos);                                  | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:18                          
+15:26:20.336105  26:         delay(15);                                           | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:19                          
+15:26:20.336105  27:     }                                                        | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:20                          
+15:26:20.336105  28:     for (pos = 10; pos <= 170; pos += 1)                     | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:21                          
+15:26:20.336105  29:     {                                                        | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:22                          
+15:26:20.336105  30:         myservo.write(pos);                                  | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:23                          
+15:26:20.336105  31:         delay(15);                                           | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:24                          
+15:26:20.336105  32:     }                                                        | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:25                          
+15:26:20.336105  33: }                                                            | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:26                          
+15:26:20.337100  34:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:27                          
+15:26:20.337100  35:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:28                          
+15:26:20.337100 [95mSKETCH REBUILD: : Sending 'didSave' notification to Clangd[0m
+15:26:20.337100 [91mIDE     LS --> Clangd NOTIF textDocument/didSave[0m
+15:26:20.337100 OUT Elapsed: 0s
+15:26:20.337100 [95mSKETCH REBUILD: : Sending full-text 'didChange' notification to Clangd[0m
+15:26:20.337100 [91mIDE     LS --> Clangd NOTIF textDocument/didChange[0m
+15:26:20.337100 OUT Elapsed: 0s
+15:26:20.337100 [95mSKETCH REBUILD: : [93mwrite-unlocked[0m[0m
+15:26:20.337100 [92mIDE <-- LS NOTIF $/progress[0m
+15:26:20.337100 OUT Elapsed: 0s
+15:26:23.147110 IN Elapsed: 3.5725195s
+15:26:23.147110 [92mIDE --> LS NOTIF ino/didCompleteBuild[0m
+15:26:23.147110 [92m                 ino/didCompleteBuild: [93mwrite-locked[0m[0m
+15:26:23.150825 [92m                 ino/didCompleteBuild: Updated 'libraries.cache'. Copied: C:\Users\Administrator\AppData\Local\Temp\arduino-sketch-7B3EC00E52F1F7DC0054485AFD243908\libraries.cache to C:\Users\Administrator\AppData\Local\Temp\arduino-language-server812076482\libraries.cache[0m
+15:26:23.150825 [92m                 ino/didCompleteBuild: [93mwrite-unlocked[0m[0m
+15:26:24.165955 [95mSKETCH REBUILD: : Sketch rebuild started[0m
+15:26:24.165955 [95mSKETCH REBUILD: : [93mread-locked[0m[0m
+15:26:24.166464 [95mSKETCH REBUILD: : [93mread-unlocked[0m[0m
+15:26:24.165955 [92mIDE <-- LS REQU window/workDoneProgress/create 7[0m
+15:26:24.174068 OUT Elapsed: 5.4713ms
+15:26:24.174577 IN Elapsed: 1.0237516s
+15:26:24.175670 [32mIDE --> LS RESP window/workDoneProgress/create 7[0m
+15:26:24.175670 [92mIDE <-- LS NOTIF $/progress[0m
+15:26:24.176177 OUT Elapsed: 0s
+15:26:24.476283 [95mSKETCH REBUILD: : Running build with: {
+  "instance": {
+    "id": 1
+  },
+  "fqbn": "arduino:avr:uno",
+  "sketch_path": "G:\\11.ZhiYi\\5.Tutorial\\1.tutorial\\ZYC0076拍照麦克轮WiFi小车\\ZYC0076\\4_Arduino_Code\\2_servo_Angle",
+  "build_path": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\arduino-language-server812076482",
+  "verbose": true,
+  "create_compilation_database_only": true,
+  "source_override": {
+    "2_servo_Angle.ino": "#include    \u003cServo.h\u003e\r\n\r\n#define servo_PIN    9\r\n\r\nServo myservo;\r\n\r\nint pos = 0;\r\n\r\nvoid setup()\r\n{\r\n    myservo.attach(servo_PIN);\r\n    myservo.write(90);\r\n}\r\n\r\nvoid loop()\r\n{\r\n    for (pos = 170; pos \u003e= 10; pos -= 1) \r\n    { \r\n        myservo.write(pos);    \r\n        delay(15);\r\n    } \r\n    for (pos = 10; pos \u003c= 170; pos += 1) \r\n    { \r\n        myservo.write(pos);            \r\n        delay(15);                     \r\n    }\r\n}\r\n"
+  },
+  "skip_libraries_discovery": true
+}[0m
+15:26:24.877173 [95mSKETCH REBUILD: : Compile successful![0m
+15:26:24.906908 [95mSKETCH REBUILD: : [93mwrite-locked[0m[0m
+15:26:24.910312   > Current sketchmapper content:
+15:26:24.911309   0: #include <Arduino.h>                                         | /not-ino:0                                         
+15:26:24.911309   1: #line 1 "G:\\11.ZhiYi\\5.Tutorial\\1.tutorial\\ZYC0076拍照     | /not-ino:0                                         
+15:26:24.911309   2: #include    <Servo.h>                                        | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:0                          
+15:26:24.911309   3:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:1                          
+15:26:24.911309   4: #define servo_PIN    9                                       | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:2                          
+15:26:24.911309   5:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:3                          
+15:26:24.911309   6: Servo myservo;                                               | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:4                          
+15:26:24.911309   7:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:5                          
+15:26:24.911309   8: int pos = 0;                                                 | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:6                          
+15:26:24.911309   9:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:7                          
+15:26:24.911309  10: #line 9 "G:\\11.ZhiYi\\5.Tutorial\\1.tutorial\\ZYC0076拍照     | /not-ino:0                                         
+15:26:24.911309  11: void setup();                                                | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:8 G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:8
+15:26:24.911309  12: #line 15 "G:\\11.ZhiYi\\5.Tutorial\\1.tutorial\\ZYC0076拍�   | /not-ino:0                                         
+15:26:24.911309  13: void loop();                                                 | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:14 G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:14
+15:26:24.911309  14: #line 9 "G:\\11.ZhiYi\\5.Tutorial\\1.tutorial\\ZYC0076拍照     | /not-ino:0                                         
+15:26:24.911309  15: void setup()                                                 | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:8                          
+15:26:24.911309  16: {                                                            | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:9                          
+15:26:24.911309  17:     myservo.attach(servo_PIN);                               | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:10                          
+15:26:24.911309  18:     myservo.write(90);                                       | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:11                          
+15:26:24.911309  19: }                                                            | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:12                          
+15:26:24.911309  20:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:13                          
+15:26:24.911309  21: void loop()                                                  | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:14                          
+15:26:24.911309  22: {                                                            | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:15                          
+15:26:24.911309  23:     for (pos = 170; pos >= 10; pos -= 1)                     | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:16                          
+15:26:24.911309  24:     {                                                        | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:17                          
+15:26:24.911309  25:         myservo.write(pos);                                  | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:18                          
+15:26:24.911309  26:         delay(15);                                           | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:19                          
+15:26:24.911309  27:     }                                                        | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:20                          
+15:26:24.911309  28:     for (pos = 10; pos <= 170; pos += 1)                     | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:21                          
+15:26:24.911309  29:     {                                                        | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:22                          
+15:26:24.911309  30:         myservo.write(pos);                                  | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:23                          
+15:26:24.911309  31:         delay(15);                                           | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:24                          
+15:26:24.911309  32:     }                                                        | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:25                          
+15:26:24.911309  33: }                                                            | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:26                          
+15:26:24.911309  34:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:27                          
+15:26:24.911309  35:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:28                          
+15:26:24.911309 [95mSKETCH REBUILD: : Sending 'didSave' notification to Clangd[0m
+15:26:24.911309 [91mIDE     LS --> Clangd NOTIF textDocument/didSave[0m
+15:26:24.911309 OUT Elapsed: 0s
+15:26:24.911309 [95mSKETCH REBUILD: : Sending full-text 'didChange' notification to Clangd[0m
+15:26:24.911309 [91mIDE     LS --> Clangd NOTIF textDocument/didChange[0m
+15:26:24.911309 OUT Elapsed: 0s
+15:26:24.911309 [95mSKETCH REBUILD: : [93mwrite-unlocked[0m[0m
+15:26:24.911309 [92mIDE <-- LS NOTIF $/progress[0m
+15:26:24.912307 OUT Elapsed: 997.8µs
+15:26:24.998080 IN Elapsed: 7.8833768s
+15:26:24.998080 [91mIDE     LS <-- Clangd REQU window/workDoneProgress/create 3[0m
+15:26:24.998080 [31mIDE     LS --> Clangd RESP window/workDoneProgress/create 3[0m
+15:26:24.998080 [92mIDE <-- LS REQU window/workDoneProgress/create 8[0m
+15:26:24.998080 OUT Elapsed: 0s
+15:26:24.998080 OUT Elapsed: 0s
+15:26:24.998080 IN Elapsed: 0s
+15:26:24.998583 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:26:24.998615 [91m                            $/progress: backgroundIndexProgress BEGIN indexing, 0.0%[0m
+15:26:24.998615 IN Elapsed: 824.0381ms
+15:26:24.998615 IN Elapsed: 0s
+15:26:24.998615 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:26:24.998615 [32mIDE --> LS RESP window/workDoneProgress/create 8[0m
+15:26:24.998615 [91m                            $/progress: backgroundIndexProgress REPORT, 0/1, 0.0%[0m
+15:26:24.998615 [92mIDE <-- LS NOTIF $/progress[0m
+15:26:24.998615 OUT Elapsed: 0s
+15:26:24.998615 [92mIDE <-- LS NOTIF $/progress[0m
+15:26:24.999118 OUT Elapsed: 502.7µs
+15:26:25.046966 IN Elapsed: 48.3513ms
+15:26:25.046966 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:26:25.046966 [91m                            $/progress: backgroundIndexProgress REPORT, 0/1, 0.0%[0m
+15:26:25.046966 [92mIDE <-- LS NOTIF $/progress[0m
+15:26:25.047500 IN Elapsed: 533.4µs
+15:26:25.047500 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:26:25.047500 [91m                            $/progress: backgroundIndexProgress END [0m
+15:26:25.047500 OUT Elapsed: 0s
+15:26:25.048042 [92mIDE <-- LS NOTIF $/progress[0m
+15:26:25.048042 OUT Elapsed: 0s
+15:32:10.077945 IN Elapsed: 5m45.07933s
+15:32:10.077945 [92mIDE --> LS REQU textDocument/hover 18[0m
+15:32:10.077945 [92m                textDocument/hover 18: [93mread-locked[0m[0m
+15:32:10.079032 [92m                textDocument/hover 18: URI: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp[0m
+15:32:10.082895 [92m                textDocument/hover 18: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:18:22 -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:25:22[0m
+15:32:10.082952 [91mIDE     LS --> Clangd REQU textDocument/hover 19[0m
+15:32:10.083033 OUT Elapsed: 81.1µs
+15:32:10.090570 IN Elapsed: 5m45.04253s
+15:32:10.090570 [31mIDE     LS <-- Clangd RESP textDocument/hover 19[0m
+15:32:10.092101 [92m                textDocument/hover 18: Range: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:25:22-25:25 -> file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:18:22-18:25 (.ino)[0m
+15:32:10.092101 [92m                textDocument/hover 18: Hover content: "### variable `pos`  \n\n---\nType: `int`  \nValue = `0`  \nPassed as value  \n\n---\n```cpp\nint pos = 0\n```"[0m
+15:32:10.092101 [92m                textDocument/hover 18: [93mread-unlocked[0m[0m
+15:32:10.092101 [32mIDE <-- LS RESP textDocument/hover 18[0m
+15:32:10.092101 OUT Elapsed: 0s
+15:32:10.716570 IN Elapsed: 624.4692ms
+15:32:10.716621 [92mIDE --> LS REQU textDocument/hover 19[0m
+15:32:10.716696 [92m                textDocument/hover 19: [93mread-locked[0m[0m
+15:32:10.717798 [92m                textDocument/hover 19: URI: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp[0m
+15:32:10.721455 [92m                textDocument/hover 19: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:21:40 -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:28:40[0m
+15:32:10.721455 [91mIDE     LS --> Clangd REQU textDocument/hover 20[0m
+15:32:10.721455 OUT Elapsed: 0s
+15:32:10.724467 IN Elapsed: 633.8963ms
+15:32:10.725080 [31mIDE     LS <-- Clangd RESP textDocument/hover 20[0m
+15:32:10.725080 [92m                textDocument/hover 19: null response[0m
+15:32:10.725080 [92m                textDocument/hover 19: [93mread-unlocked[0m[0m
+15:32:10.725080 [32mIDE <-- LS RESP textDocument/hover 19[0m
+15:32:10.725080 OUT Elapsed: 0s
+15:32:10.990773 IN Elapsed: 265.6937ms
+15:32:10.990773 [92mIDE --> LS NOTIF textDocument/didSave[0m
+15:32:10.990773 [92m                 textDocument/didSave: [93mwrite-locked[0m[0m
+15:32:10.990773 [92m                 textDocument/didSave: notification is not forwarded to clang[0m
+15:32:10.990773 [92m                 textDocument/didSave: [93mwrite-unlocked[0m[0m
+15:32:11.991219 [95mSKETCH REBUILD: : Sketch rebuild started[0m
+15:32:11.991219 [92mIDE <-- LS REQU window/workDoneProgress/create 9[0m
+15:32:11.991219 [95mSKETCH REBUILD: : [93mread-locked[0m[0m
+15:32:11.991219 [95mSKETCH REBUILD: : [93mread-unlocked[0m[0m
+15:32:11.991219 OUT Elapsed: 0s
+15:32:11.991773 IN Elapsed: 1.0009993s
+15:32:11.991773 [32mIDE --> LS RESP window/workDoneProgress/create 9[0m
+15:32:11.991773 [92mIDE <-- LS NOTIF $/progress[0m
+15:32:11.991773 OUT Elapsed: 0s
+15:32:12.246456 IN Elapsed: 254.6838ms
+15:32:12.246456 [92mIDE --> LS NOTIF textDocument/didSave[0m
+15:32:12.246456 [92m                 textDocument/didSave: [93mwrite-locked[0m[0m
+15:32:12.246456 [92m                 textDocument/didSave: notification is not forwarded to clang[0m
+15:32:12.246456 [92m                 textDocument/didSave: [93mwrite-unlocked[0m[0m
+15:32:12.302119 [95mSKETCH REBUILD: : Running build with: {
+  "instance": {
+    "id": 1
+  },
+  "fqbn": "arduino:avr:uno",
+  "sketch_path": "G:\\11.ZhiYi\\5.Tutorial\\1.tutorial\\ZYC0076拍照麦克轮WiFi小车\\ZYC0076\\4_Arduino_Code\\2_servo_Angle",
+  "build_path": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\arduino-language-server812076482",
+  "verbose": true,
+  "create_compilation_database_only": true,
+  "source_override": {
+    "2_servo_Angle.ino": "#include    \u003cServo.h\u003e\r\n\r\n#define servo_PIN    9\r\n\r\nServo myservo;\r\n\r\nint pos = 0;\r\n\r\nvoid setup()\r\n{\r\n    myservo.attach(servo_PIN);\r\n    myservo.write(90);\r\n}\r\n\r\nvoid loop()\r\n{\r\n    for (pos = 170; pos \u003e= 10; pos -= 1) \r\n    { \r\n        myservo.write(pos);    \r\n        delay(15);\r\n    } \r\n    for (pos = 10; pos \u003c= 170; pos += 1) \r\n    { \r\n        myservo.write(pos);            \r\n        delay(15);                     \r\n    }\r\n}\r\n"
+  },
+  "skip_libraries_discovery": true
+}[0m
+15:32:12.703891 [95mSKETCH REBUILD: : Compile successful![0m
+15:32:12.732483 [95mSKETCH REBUILD: : [93mwrite-locked[0m[0m
+15:32:12.732483 [95mSKETCH REBUILD: : [93mwrite-unlocked[0m[0m
+15:32:12.732483 [95mSKETCH REBUILD: : Error: context canceled[0m
+15:32:12.732483 [92mIDE <-- LS NOTIF $/progress[0m
+15:32:12.732483 OUT Elapsed: 0s
+15:32:13.740994 [92mIDE <-- LS REQU window/workDoneProgress/create 10[0m
+15:32:13.740994 OUT Elapsed: 0s
+15:32:13.740994 [95mSKETCH REBUILD: : Sketch rebuild started[0m
+15:32:13.741751 [95mSKETCH REBUILD: : [93mread-locked[0m[0m
+15:32:13.741751 [95mSKETCH REBUILD: : [93mread-unlocked[0m[0m
+15:32:13.742749 IN Elapsed: 1.4962929s
+15:32:13.742749 [32mIDE --> LS RESP window/workDoneProgress/create 10[0m
+15:32:13.743512 [92mIDE <-- LS NOTIF $/progress[0m
+15:32:13.743512 OUT Elapsed: 0s
+15:32:14.052764 [95mSKETCH REBUILD: : Running build with: {
+  "instance": {
+    "id": 1
+  },
+  "fqbn": "arduino:avr:uno",
+  "sketch_path": "G:\\11.ZhiYi\\5.Tutorial\\1.tutorial\\ZYC0076拍照麦克轮WiFi小车\\ZYC0076\\4_Arduino_Code\\2_servo_Angle",
+  "build_path": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\arduino-language-server812076482",
+  "verbose": true,
+  "create_compilation_database_only": true,
+  "source_override": {
+    "2_servo_Angle.ino": "#include    \u003cServo.h\u003e\r\n\r\n#define servo_PIN    9\r\n\r\nServo myservo;\r\n\r\nint pos = 0;\r\n\r\nvoid setup()\r\n{\r\n    myservo.attach(servo_PIN);\r\n    myservo.write(90);\r\n}\r\n\r\nvoid loop()\r\n{\r\n    for (pos = 170; pos \u003e= 10; pos -= 1) \r\n    { \r\n        myservo.write(pos);    \r\n        delay(15);\r\n    } \r\n    for (pos = 10; pos \u003c= 170; pos += 1) \r\n    { \r\n        myservo.write(pos);            \r\n        delay(15);                     \r\n    }\r\n}\r\n"
+  },
+  "skip_libraries_discovery": true
+}[0m
+15:32:14.467066 [95mSKETCH REBUILD: : Compile successful![0m
+15:32:14.505279 [95mSKETCH REBUILD: : [93mwrite-locked[0m[0m
+15:32:14.509009   > Current sketchmapper content:
+15:32:14.509009   0: #include <Arduino.h>                                         | /not-ino:0                                         
+15:32:14.509009   1: #line 1 "G:\\11.ZhiYi\\5.Tutorial\\1.tutorial\\ZYC0076拍照     | /not-ino:0                                         
+15:32:14.509009   2: #include    <Servo.h>                                        | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:0                          
+15:32:14.509009   3:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:1                          
+15:32:14.509009   4: #define servo_PIN    9                                       | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:2                          
+15:32:14.509009   5:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:3                          
+15:32:14.509009   6: Servo myservo;                                               | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:4                          
+15:32:14.509009   7:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:5                          
+15:32:14.509009   8: int pos = 0;                                                 | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:6                          
+15:32:14.509009   9:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:7                          
+15:32:14.509511  10: #line 9 "G:\\11.ZhiYi\\5.Tutorial\\1.tutorial\\ZYC0076拍照     | /not-ino:0                                         
+15:32:14.509511  11: void setup();                                                | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:8 G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:8
+15:32:14.509511  12: #line 15 "G:\\11.ZhiYi\\5.Tutorial\\1.tutorial\\ZYC0076拍�   | /not-ino:0                                         
+15:32:14.509568  13: void loop();                                                 | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:14 G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:14
+15:32:14.509568  14: #line 9 "G:\\11.ZhiYi\\5.Tutorial\\1.tutorial\\ZYC0076拍照     | /not-ino:0                                         
+15:32:14.509568  15: void setup()                                                 | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:8                          
+15:32:14.509568  16: {                                                            | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:9                          
+15:32:14.509568  17:     myservo.attach(servo_PIN);                               | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:10                          
+15:32:14.509568  18:     myservo.write(90);                                       | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:11                          
+15:32:14.509568  19: }                                                            | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:12                          
+15:32:14.509568  20:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:13                          
+15:32:14.509568  21: void loop()                                                  | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:14                          
+15:32:14.509568  22: {                                                            | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:15                          
+15:32:14.509568  23:     for (pos = 170; pos >= 10; pos -= 1)                     | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:16                          
+15:32:14.509568  24:     {                                                        | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:17                          
+15:32:14.509568  25:         myservo.write(pos);                                  | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:18                          
+15:32:14.509568  26:         delay(15);                                           | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:19                          
+15:32:14.509568  27:     }                                                        | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:20                          
+15:32:14.509568  28:     for (pos = 10; pos <= 170; pos += 1)                     | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:21                          
+15:32:14.509568  29:     {                                                        | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:22                          
+15:32:14.509568  30:         myservo.write(pos);                                  | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:23                          
+15:32:14.509568  31:         delay(15);                                           | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:24                          
+15:32:14.509568  32:     }                                                        | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:25                          
+15:32:14.509568  33: }                                                            | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:26                          
+15:32:14.509568  34:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:27                          
+15:32:14.509568  35:                                                              | G:\11.ZhiYi\5.Tutorial\1.tutorial\ZYC0076拍照麦克轮WiFi小车\ZYC0076\4_Arduino_Code\2_servo_Angle\2_servo_Angle.ino:28                          
+15:32:14.509568 [95mSKETCH REBUILD: : Sending 'didSave' notification to Clangd[0m
+15:32:14.509568 [91mIDE     LS --> Clangd NOTIF textDocument/didSave[0m
+15:32:14.510123 OUT Elapsed: 48.2µs
+15:32:14.510123 [95mSKETCH REBUILD: : Sending full-text 'didChange' notification to Clangd[0m
+15:32:14.510123 [91mIDE     LS --> Clangd NOTIF textDocument/didChange[0m
+15:32:14.510123 OUT Elapsed: 0s
+15:32:14.510123 [95mSKETCH REBUILD: : [93mwrite-unlocked[0m[0m
+15:32:14.510123 [92mIDE <-- LS NOTIF $/progress[0m
+15:32:14.510123 OUT Elapsed: 0s
+15:32:14.580112 IN Elapsed: 3.8550323s
+15:32:14.580112 [91mIDE     LS <-- Clangd REQU window/workDoneProgress/create 4[0m
+15:32:14.580112 [31mIDE     LS --> Clangd RESP window/workDoneProgress/create 4[0m
+15:32:14.580112 [92mIDE <-- LS REQU window/workDoneProgress/create 11[0m
+15:32:14.580112 OUT Elapsed: 0s
+15:32:14.580112 OUT Elapsed: 0s
+15:32:14.580112 IN Elapsed: 0s
+15:32:14.580112 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:32:14.580649 [91m                            $/progress: backgroundIndexProgress BEGIN indexing, 0.0%[0m
+15:32:14.580649 IN Elapsed: 0s
+15:32:14.580649 IN Elapsed: 837.8994ms
+15:32:14.580649 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:32:14.580649 [91m                            $/progress: backgroundIndexProgress REPORT, 0/1, 0.0%[0m
+15:32:14.580649 [32mIDE --> LS RESP window/workDoneProgress/create 11[0m
+15:32:14.580649 [92mIDE <-- LS NOTIF $/progress[0m
+15:32:14.580649 OUT Elapsed: 0s
+15:32:14.580649 [92mIDE <-- LS NOTIF $/progress[0m
+15:32:14.580649 OUT Elapsed: 0s
+15:32:14.630220 IN Elapsed: 49.5718ms
+15:32:14.630220 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:32:14.630220 [91m                            $/progress: backgroundIndexProgress REPORT, 0/1, 0.0%[0m
+15:32:14.630220 IN Elapsed: 0s
+15:32:14.630220 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+15:32:14.630220 [91m                            $/progress: backgroundIndexProgress END [0m
+15:32:14.630220 [92mIDE <-- LS NOTIF $/progress[0m
+15:32:14.630220 OUT Elapsed: 0s
+15:32:14.630220 [92mIDE <-- LS NOTIF $/progress[0m
+15:32:14.630220 OUT Elapsed: 0s
+15:32:39.719836 IN Elapsed: 25.1391874s
+15:32:39.719836 [92mIDE --> LS REQU textDocument/hover 20[0m
+15:32:39.719836 [92m                textDocument/hover 20: [93mread-locked[0m[0m
+15:32:39.720990 [92m                textDocument/hover 20: URI: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp[0m
+15:32:39.724850 [92m                textDocument/hover 20: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:18:6 -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:25:6[0m
+15:32:39.724850 [91mIDE     LS --> Clangd REQU textDocument/hover 21[0m
+15:32:39.724850 OUT Elapsed: 0s
+15:32:39.731887 IN Elapsed: 25.1016668s
+15:32:39.731887 [31mIDE     LS <-- Clangd RESP textDocument/hover 21[0m
+15:32:39.731887 [92m                textDocument/hover 20: null response[0m
+15:32:39.731887 [92m                textDocument/hover 20: [93mread-unlocked[0m[0m
+15:32:39.731887 [32mIDE <-- LS RESP textDocument/hover 20[0m
+15:32:39.731887 OUT Elapsed: 0s
+15:32:41.625435 IN Elapsed: 1.8935481s
+15:32:41.625603 [92mIDE --> LS REQU textDocument/codeAction 21[0m
+15:32:41.625855 [92m                textDocument/codeAction 21: [93mread-locked[0m[0m
+15:32:41.625855 [92m                textDocument/codeAction 21: --> codeAction(file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:14:11)[0m
+15:32:41.628901 [92m                textDocument/codeAction 21: URI: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp[0m
+15:32:41.632510 [92m                textDocument/codeAction 21:     --> codeAction(file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:14:11)[0m
+15:32:41.632510 [91mIDE     LS --> Clangd REQU textDocument/codeAction 22[0m
+15:32:41.632510 OUT Elapsed: 0s
+15:32:41.633065 IN Elapsed: 1.9011776s
+15:32:41.633065 [31mIDE     LS <-- Clangd RESP textDocument/codeAction 22[0m
+15:32:41.633065 [92m                textDocument/codeAction 21: [93mread-unlocked[0m[0m
+15:32:41.633065 [32mIDE <-- LS RESP textDocument/codeAction 21[0m
+15:32:41.633065 OUT Elapsed: 0s
+15:32:45.920496 IN Elapsed: 4.2874313s
+15:32:45.920496 [92mIDE --> LS REQU textDocument/hover 22[0m
+15:32:45.920496 [92m                textDocument/hover 22: [93mread-locked[0m[0m
+15:32:45.921593 [92m                textDocument/hover 22: URI: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp[0m
+15:32:45.925451 [92m                textDocument/hover 22: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:16:12 -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:23:12[0m
+15:32:45.925451 [91mIDE     LS --> Clangd REQU textDocument/hover 23[0m
+15:32:45.925451 OUT Elapsed: 0s
+15:32:45.932280 IN Elapsed: 4.2992147s
+15:32:45.932280 [31mIDE     LS <-- Clangd RESP textDocument/hover 23[0m
+15:32:45.933884 [92m                textDocument/hover 22: Range: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:23:9-23:12 -> file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:16:9-16:12 (.ino)[0m
+15:32:45.933884 [92m                textDocument/hover 22: Hover content: "### variable `pos`  \n\n---\nType: `int`  \nValue = `0`  \n\n---\n```cpp\nint pos = 0\n```"[0m
+15:32:45.933884 [92m                textDocument/hover 22: [93mread-unlocked[0m[0m
+15:32:45.933884 [32mIDE <-- LS RESP textDocument/hover 22[0m
+15:32:45.933884 OUT Elapsed: 0s
+15:33:01.926869 IN Elapsed: 15.9929843s
+15:33:01.927014 [92mIDE --> LS REQU textDocument/codeAction 23[0m
+15:33:01.927069 [92m                textDocument/codeAction 23: [93mread-locked[0m[0m
+15:33:01.927125 [92m                textDocument/codeAction 23: --> codeAction(file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:10:0)[0m
+15:33:01.927973 [92m                textDocument/codeAction 23: URI: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp[0m
+15:33:01.931171 [92m                textDocument/codeAction 23:     --> codeAction(file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:10:0)[0m
+15:33:01.931673 [91mIDE     LS --> Clangd REQU textDocument/codeAction 24[0m
+15:33:01.931704 OUT Elapsed: 0s
+15:33:01.934972 IN Elapsed: 16.0026923s
+15:33:01.935475 [31mIDE     LS <-- Clangd RESP textDocument/codeAction 24[0m
+15:33:01.935512 [92m                textDocument/codeAction 23: [93mread-unlocked[0m[0m
+15:33:01.935512 [32mIDE <-- LS RESP textDocument/codeAction 23[0m
+15:33:01.935512 OUT Elapsed: 0s
+15:33:04.765106 IN Elapsed: 2.8295944s
+15:33:04.765106 [92mIDE --> LS REQU textDocument/codeAction 24[0m
+15:33:04.765106 [92m                textDocument/codeAction 24: [93mread-locked[0m[0m
+15:33:04.765106 [92m                textDocument/codeAction 24: --> codeAction(file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:12:1)[0m
+15:33:04.766133 [92m                textDocument/codeAction 24: URI: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp[0m
+15:33:04.770134 [92m                textDocument/codeAction 24:     --> codeAction(file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:12:1)[0m
+15:33:04.770134 [91mIDE     LS --> Clangd REQU textDocument/codeAction 25[0m
+15:33:04.770134 OUT Elapsed: 0s
+15:33:04.770134 IN Elapsed: 2.8351622s
+15:33:04.770649 [31mIDE     LS <-- Clangd RESP textDocument/codeAction 25[0m
+15:33:04.770649 [92m                textDocument/codeAction 24: [93mread-unlocked[0m[0m
+15:33:04.770649 [32mIDE <-- LS RESP textDocument/codeAction 24[0m
+15:33:04.770649 OUT Elapsed: 0s
+15:33:05.554566 IN Elapsed: 783.9168ms
+15:33:05.554636 [92mIDE --> LS REQU textDocument/codeAction 25[0m
+15:33:05.554734 [92m                textDocument/codeAction 25: [93mread-locked[0m[0m
+15:33:05.554793 [92m                textDocument/codeAction 25: --> codeAction(file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:8:0)[0m
+15:33:05.555672 [92m                textDocument/codeAction 25: URI: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp[0m
+15:33:05.558976 [92m                textDocument/codeAction 25:     --> codeAction(file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:8:0)[0m
+15:33:05.559479 [91mIDE     LS --> Clangd REQU textDocument/codeAction 26[0m
+15:33:05.559547 OUT Elapsed: 68.5µs
+15:33:05.559578 IN Elapsed: 788.9411ms
+15:33:05.559578 [31mIDE     LS <-- Clangd RESP textDocument/codeAction 26[0m
+15:33:05.559578 [92m                textDocument/codeAction 25: [93mread-unlocked[0m[0m
+15:33:05.559578 [32mIDE <-- LS RESP textDocument/codeAction 25[0m
+15:33:05.559578 OUT Elapsed: 0s
+15:33:10.713377 IN Elapsed: 5.1532961s
+15:33:10.713377 [92mIDE --> LS REQU textDocument/codeAction 26[0m
+15:33:10.713377 [92m                textDocument/codeAction 26: [93mread-locked[0m[0m
+15:33:10.713377 [92m                textDocument/codeAction 26: --> codeAction(file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:11:22)[0m
+15:33:10.714586 [92m                textDocument/codeAction 26: URI: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp[0m
+15:33:10.717726 [92m                textDocument/codeAction 26:     --> codeAction(file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:11:22)[0m
+15:33:10.718237 [91mIDE     LS --> Clangd REQU textDocument/codeAction 27[0m
+15:33:10.718237 OUT Elapsed: 0s
+15:33:10.722074 IN Elapsed: 5.1624965s
+15:33:10.722074 [31mIDE     LS <-- Clangd RESP textDocument/codeAction 27[0m
+15:33:10.722074 [92m                textDocument/codeAction 26: [93mread-unlocked[0m[0m
+15:33:10.722074 [32mIDE <-- LS RESP textDocument/codeAction 26[0m
+15:33:10.722074 OUT Elapsed: 0s
+15:33:13.528275 IN Elapsed: 2.8062003s
+15:33:13.528331 [92mIDE --> LS REQU textDocument/hover 27[0m
+15:33:13.528393 [92m                textDocument/hover 27: [93mread-locked[0m[0m
+15:33:13.529619 [92m                textDocument/hover 27: URI: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp[0m
+15:33:13.532915 [92m                textDocument/hover 27: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:18:12 -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:25:12[0m
+15:33:13.532915 [91mIDE     LS --> Clangd REQU textDocument/hover 28[0m
+15:33:13.532915 OUT Elapsed: 0s
+15:33:13.536712 IN Elapsed: 2.8146375s
+15:33:13.536712 [31mIDE     LS <-- Clangd RESP textDocument/hover 28[0m
+15:33:13.538440 [92m                textDocument/hover 27: Range: file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:25:8-25:15 -> file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:18:8-18:15 (.ino)[0m
+15:33:13.538440 [92m                textDocument/hover 27: Hover content: "### variable `myservo`  \n\n---\nType: `class Servo`  \n\n---\n```cpp\nServo myservo\n```"[0m
+15:33:13.538440 [92m                textDocument/hover 27: [93mread-unlocked[0m[0m
+15:33:13.538440 [32mIDE <-- LS RESP textDocument/hover 27[0m
+15:33:13.538440 OUT Elapsed: 0s
+15:33:35.530580 IN Elapsed: 21.9921399s
+15:33:35.530580 [92mIDE --> LS REQU textDocument/hover 28[0m
+15:33:35.530580 [92m                textDocument/hover 28: [93mread-locked[0m[0m
+15:33:35.532209 [92m                textDocument/hover 28: URI: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp[0m
+15:33:35.535334 [92m                textDocument/hover 28: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:23:39 -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:30:39[0m
+15:33:35.535334 [91mIDE     LS --> Clangd REQU textDocument/hover 29[0m
+15:33:35.535897 OUT Elapsed: 0s
+15:33:35.542371 IN Elapsed: 22.0056597s
+15:33:35.542371 [31mIDE     LS <-- Clangd RESP textDocument/hover 29[0m
+15:33:35.542371 [92m                textDocument/hover 28: null response[0m
+15:33:35.542371 [92m                textDocument/hover 28: [93mread-unlocked[0m[0m
+15:33:35.542371 [32mIDE <-- LS RESP textDocument/hover 28[0m
+15:33:35.542910 OUT Elapsed: 538.8µs
+15:33:35.887308 IN Elapsed: 344.3982ms
+15:33:35.887308 [92mIDE --> LS REQU textDocument/hover 29[0m
+15:33:35.887308 [92m                textDocument/hover 29: [93mread-locked[0m[0m
+15:33:35.888735 [92m                textDocument/hover 29: URI: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp[0m
+15:33:35.892715 [92m                textDocument/hover 29: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:23:39 -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:30:39[0m
+15:33:35.892715 [91mIDE     LS --> Clangd REQU textDocument/hover 30[0m
+15:33:35.892715 OUT Elapsed: 0s
+15:33:35.895964 IN Elapsed: 353.5922ms
+15:33:35.896466 [31mIDE     LS <-- Clangd RESP textDocument/hover 30[0m
+15:33:35.896502 [92m                textDocument/hover 29: null response[0m
+15:33:35.896502 [92m                textDocument/hover 29: [93mread-unlocked[0m[0m
+15:33:35.896502 [32mIDE <-- LS RESP textDocument/hover 29[0m
+15:33:35.896502 OUT Elapsed: 0s
+15:33:36.290104 IN Elapsed: 393.6024ms
+15:33:36.290104 [92mIDE --> LS REQU textDocument/hover 30[0m
+15:33:36.290104 [92m                textDocument/hover 30: [93mread-locked[0m[0m
+15:33:36.291236 [92m                textDocument/hover 30: URI: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp[0m
+15:33:36.295331 [92m                textDocument/hover 30: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:23:37 -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:30:37[0m
+15:33:36.295331 [91mIDE     LS --> Clangd REQU textDocument/hover 31[0m
+15:33:36.295331 OUT Elapsed: 0s
+15:33:36.298564 IN Elapsed: 402.6003ms
+15:33:36.298564 [31mIDE     LS <-- Clangd RESP textDocument/hover 31[0m
+15:33:36.298564 [92m                textDocument/hover 30: null response[0m
+15:33:36.298564 [92m                textDocument/hover 30: [93mread-unlocked[0m[0m
+15:33:36.298564 [32mIDE <-- LS RESP textDocument/hover 30[0m
+15:33:36.298564 OUT Elapsed: 0s
+15:33:39.500990 IN Elapsed: 3.2024258s
+15:33:39.501390 [92mIDE --> LS REQU textDocument/hover 31[0m
+15:33:39.501537 [92m                textDocument/hover 31: [93mread-locked[0m[0m
+15:33:39.505149 [92m                textDocument/hover 31: URI: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp[0m
+15:33:39.508457 [92m                textDocument/hover 31: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:24:19 -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:31:19[0m
+15:33:39.508457 [91mIDE     LS --> Clangd REQU textDocument/hover 32[0m
+15:33:39.508457 OUT Elapsed: 0s
+15:33:39.511792 IN Elapsed: 3.2132285s
+15:33:39.512296 [31mIDE     LS <-- Clangd RESP textDocument/hover 32[0m
+15:33:39.512334 [92m                textDocument/hover 31: null response[0m
+15:33:39.512334 [92m                textDocument/hover 31: [93mread-unlocked[0m[0m
+15:33:39.512334 [32mIDE <-- LS RESP textDocument/hover 31[0m
+15:33:39.512334 OUT Elapsed: 0s
+15:33:41.138478 IN Elapsed: 1.6261435s
+15:33:41.138478 [92mIDE --> LS REQU textDocument/codeAction 32[0m
+15:33:41.138478 [92m                textDocument/codeAction 32: [93mread-locked[0m[0m
+15:33:41.138478 [92m                textDocument/codeAction 32: --> codeAction(file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:15:0)[0m
+15:33:41.139569 [92m                textDocument/codeAction 32: URI: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp[0m
+15:33:41.143501 [92m                textDocument/codeAction 32:     --> codeAction(file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:15:0)[0m
+15:33:41.143501 [91mIDE     LS --> Clangd REQU textDocument/codeAction 33[0m
+15:33:41.143501 OUT Elapsed: 0s
+15:33:41.147319 IN Elapsed: 1.6350236s
+15:33:41.147319 [31mIDE     LS <-- Clangd RESP textDocument/codeAction 33[0m
+15:33:41.147319 [92m                textDocument/codeAction 32: [93mread-unlocked[0m[0m
+15:33:41.147319 [32mIDE <-- LS RESP textDocument/codeAction 32[0m
+15:33:41.147319 OUT Elapsed: 0s
+15:33:41.610864 IN Elapsed: 463.4756ms
+15:33:41.611012 [92mIDE --> LS REQU textDocument/codeAction 33[0m
+15:33:41.611269 [92m                textDocument/codeAction 33: [93mread-locked[0m[0m
+15:33:41.611301 [92m                textDocument/codeAction 33: --> codeAction(file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino:14:0)[0m
+15:33:41.612387 [92m                textDocument/codeAction 33: URI: file:///g%3A/11.ZhiYi/5.Tutorial/1.tutorial/ZYC0076%E6%8B%8D%E7%85%A7%E9%BA%A6%E5%85%8B%E8%BD%AEWiFi%E5%B0%8F%E8%BD%A6/ZYC0076/4_Arduino_Code/2_servo_Angle/2_servo_Angle.ino -> file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp[0m
+15:33:41.615666 [92m                textDocument/codeAction 33:     --> codeAction(file:///C:/Users/Administrator/AppData/Local/Temp/arduino-language-server812076482/sketch/2_servo_Angle.ino.cpp:14:0)[0m
+15:33:41.616199 [91mIDE     LS --> Clangd REQU textDocument/codeAction 34[0m
+15:33:41.616199 OUT Elapsed: 0s
+15:33:41.616199 IN Elapsed: 468.8791ms
+15:33:41.616701 [31mIDE     LS <-- Clangd RESP textDocument/codeAction 34[0m
+15:33:41.616701 [92m                textDocument/codeAction 33: [93mread-unlocked[0m[0m
+15:33:41.616756 [32mIDE <-- LS RESP textDocument/codeAction 33[0m
+15:33:41.616756 OUT Elapsed: 0s
+16:46:58.022160 IN Elapsed: 1h13m16.4054042s
+16:46:58.022709 [92mIDE --> LS REQU shutdown 34[0m
+16:46:58.022709 [91mIDE     LS --> Clangd REQU shutdown 35[0m
+16:46:58.022709 OUT Elapsed: 0s
+16:46:58.024415 IN Elapsed: 1h13m16.4082165s
+16:46:58.027729 [31mIDE     LS <-- Clangd RESP shutdown 35[0m
+16:46:58.027729 [32mIDE <-- LS RESP shutdown 34[0m
+16:46:58.027729 OUT Elapsed: 0s
+16:46:58.028770 IN Elapsed: 1.0409ms
+16:46:58.028770 [92mIDE --> LS NOTIF exit[0m
+16:46:58.028770 [91mIDE     LS --> Clangd NOTIF exit[0m
+16:46:58.028770 OUT Elapsed: 0s
+16:46:58.028770 [92m                 exit: Arduino Language Server is shutting down.[0m
