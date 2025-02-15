@@ -1,4 +1,3 @@
-
 #include <SPI.h>
 #include <TFT_eSPI.h>      // Hardware-specific library
 
@@ -18,14 +17,14 @@ void setup() {
   tft.setRotation(3);
 
   // 校准触摸屏和检索比例因子
-  touch_calibrate();
+  // touch_calibrate();
 
-/*
+
   // 用发送到串行监视器的代码替换下述代码行
   // 校准完成后，例如:
-  uint16_t calData[5] = { 286, 3534, 283, 3600, 6 };
+  uint16_t calData[5] = { 481, 3371, 327, 3366, 5 };
   tft.setTouch(calData);
-*/
+
 
   // Clear the screen
   tft.fillScreen(TFT_BLACK);
