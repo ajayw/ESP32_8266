@@ -177,7 +177,13 @@ void setup() {
   pinMode(IN2, OUTPUT);
   pinMode(IN3, OUTPUT);
   pinMode(IN4, OUTPUT);
-  
+  setupCamera(); // 初始化摄像头
+    // 获取摄像头传感器
+  sensor_t *s = esp_camera_sensor_get();
+  if (s) {
+      s->set_vflip(s, 1);   // 1 = 竖直翻转（180°）
+      s->set_hmirror(s, 1); // 1 = 水平翻转
+  }
   WiFi.begin(ssid, password);
   while (WiFi.status() != WL_CONNECTED) {
     delay(1000);
@@ -188,7 +194,6 @@ void setup() {
   Serial.print("IP 地址: ");
   Serial.println(WiFi.localIP());
 
-  setupCamera(); // 初始化摄像头
   startCameraServer(); // 启动摄像头服务器
 }
 
